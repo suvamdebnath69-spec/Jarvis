@@ -1,0 +1,95 @@
+[2026-08-17 14:51:30] SAY: Ollama isn't running, so I can't think yet. Please install and start Ollama from ollama.com, pull a model with, ollama pull llama3.2, and then run me again.
+[2026-08-17 14:51:42] Ollama not reachable at http://localhost:11434
+[2026-08-17 15:52:31] SAY: All systems check passed. Say, hey freebuff, and ask me anything.
+[2026-08-17 15:52:58] SAY: Hi, I'm Freebuff. Say, hey freebuff, followed by your request.
+[2026-08-17 15:53:36] SAY: Hi, I'm Jarvis. Say, hey jarvis, followed by your request.
+[2026-08-17 15:54:19] SAY: At your service, sir. Say, hey jarvis, followed by your request.
+[2026-08-17 15:55:13] SAY: How can I help you today, sir?
+[2026-08-17 17:14:33] SAY: Using the llama3.2:latest model, since qwen2.5:1.5b is not installed.
+[2026-08-17 17:14:40] SAY: Welcome back, sir! How can I help you?
+[2026-08-17 17:21:06] SAY: Welcome back, sir! How can I help you?
+[2026-08-17 17:22:36] SAY: Welcome back, sir! How can I help you?
+[2026-08-17 18:00:01] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 18:00:06] listening for wake word...
+[2026-08-17 18:02:52] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 18:02:59] listening for wake word...
+[2026-08-17 19:26:34] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 19:26:42] listening for wake word...
+[2026-08-17 19:26:43] keyboard wake armed: ctrl+alt+j
+[2026-08-17 19:26:46] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:27:52] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:28:10] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:29:14] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:30:24] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 19:30:34] listening for wake word...
+[2026-08-17 19:30:34] keyboard wake armed: ctrl+alt+j
+[2026-08-17 19:30:54] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 19:31:00] listening for wake word...
+[2026-08-17 19:31:00] keyboard wake armed: ctrl+alt+j
+[2026-08-17 19:31:03] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:31:10] starting web interface...
+[2026-08-17 19:32:27] web interface failed to start
+[2026-08-17 19:32:27] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:32:33] starting web interface...
+[2026-08-17 19:33:50] web interface failed to start
+[2026-08-17 19:33:50] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:33:57] starting web interface...
+[2026-08-17 19:35:14] web interface failed to start
+[2026-08-17 19:36:12] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:36:18] starting web interface...
+[2026-08-17 19:37:35] web interface failed to start
+[2026-08-17 19:40:01] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:40:11] starting web interface...
+[2026-08-17 19:41:28] web interface failed to start
+[2026-08-17 19:43:47] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:43:52] starting web interface...
+[2026-08-17 19:44:56] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 19:45:03] listening for wake word...
+[2026-08-17 19:45:03] keyboard wake armed: ctrl+alt+j
+[2026-08-17 19:45:25] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:45:27] starting web interface...
+[2026-08-17 19:46:44] web interface failed to start
+[2026-08-17 19:46:48] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:46:50] starting web interface...
+[2026-08-17 19:48:07] web interface failed to start
+[2026-08-17 19:48:11] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:48:13] starting web interface...
+[2026-08-17 19:49:30] web interface failed to start
+[2026-08-17 19:49:35] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:49:37] starting web interface...
+[2026-08-17 19:50:54] web interface failed to start
+[2026-08-17 19:52:26] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 19:52:32] listening for wake word...
+[2026-08-17 19:52:32] keyboard wake armed: ctrl+alt+j
+[2026-08-17 19:52:44] starting web interface...
+[2026-08-17 19:52:45] web interface opened in browser
+[2026-08-17 19:52:56] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:52:56] web interface opened in browser
+[2026-08-17 19:53:05] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:53:05] web interface opened in browser
+[2026-08-17 19:54:43] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 19:54:44] web interface opened in browser
+[2026-08-17 20:01:57] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:01:58] web interface opened in browser
+[2026-08-17 20:02:07] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:02:07] web interface opened in browser
+[2026-08-17 20:03:03] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:03:03] web interface opened in browser
+[2026-08-17 20:03:26] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:03:26] web interface opened in browser
+[2026-08-17 20:04:59] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 20:05:05] listening for wake word...
+[2026-08-17 20:05:05] keyboard wake armed: ctrl+alt+j
+[2026-08-17 20:06:01] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 20:06:07] listening for wake word...
+[2026-08-17 20:06:07] keyboard wake armed: ctrl+alt+j
+[2026-08-17 20:20:17] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:20:17] web interface opened in browser
+[2026-08-17 20:23:08] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:23:08] web interface opened in browser
+[2026-08-17 20:29:57] GREETING: Welcome back, sir! How can I help you?
+[2026-08-17 20:30:04] listening for wake word...
+[2026-08-17 20:30:05] keyboard wake armed: ctrl+alt+j
+[2026-08-17 20:30:09] HOTKEY: keyboard wake (ctrl+alt+j)
+[2026-08-17 20:30:11] starting web interface...
+[2026-08-17 20:30:12] web interface opened in browser

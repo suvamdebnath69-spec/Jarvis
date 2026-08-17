@@ -1,0 +1,22 @@
+# Secrets - NEVER commit
+.env
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ollama partial downloads (large blobs)
+*.partial
+*.partial-*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/

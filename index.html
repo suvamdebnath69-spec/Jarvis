@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>J.A.R.V.I.S.</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+  :root{
+    --bg: #050a0f;
+    --bg-deep: #02050a;
+    --panel: #0a141c;
+    --cyan: #5fd8ff;
+    --cyan-dim: #1e5a70;
+    --cyan-glow: rgba(95,216,255,0.55);
+    --amber: #ff8a3d;
+    --red: #ff4d5e;
+    --text: #d7f2ff;
+    --text-dim: #4f7a8c;
+    --line: rgba(95,216,255,0.18);
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{
+    margin:0; padding:0; width:100%; height:100%;
+    background: radial-gradient(ellipse at center, #081218 0%, var(--bg-deep) 70%);
+    color: var(--text);
+    font-family:'Rajdhani', sans-serif;
+    overflow:hidden;
+  }
+
+  #app{ position:relative; width:100%; height:100vh; min-height:640px; }
+
+  /* scanline / vignette overlay */
+  .overlay{
+    position:absolute; inset:0; pointer-events:none; z-index:50;
+    background:
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.018) 0px, rgba(255,255,255,0.018) 1px, transparent 1px, transparent 3px),
+      radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.65) 100%);
+    mix-blend-mode: screen;
+  }
+  .flicker{
+    position:absolute; inset:0; pointer-events:none; z-index:51;
+    background: rgba(95,216,255,0.02);
+    animation: flick 6s infinite steps(1);
+  }
+  @keyframes flick{
+    0%,93%,100%{ opacity:0; }
+    94%{ opacity:1; }
+    95%{ opacity:0; }
+    96%{ opacity:.6; }
+    97%{ opacity:0; }
+  }
+
+  /* corner HUD brackets */
+  .corner{ position:absolute; width:52px; height:52px; border-color:var(--cyan-dim); opacity:.9; z-index:40; }
+  .corner.tl{ top:18px; left:18px; border-top:2px solid var(--cyan); border-left:2px solid var(--cyan); }
+  .corner.tr{ top:18px; right:18px; border-top:2px solid var(--cyan); border-right:2px solid var(--cyan); }
+  .corner.bl{ bottom:18px; left:18px; border-bottom:2px solid var(--cyan); border-left:2px solid var(--cyan); }
+  .corner.br{ bottom:18px; right:18px; border-bottom:2px solid var(--cyan); border-right:2px solid var(--cyan); }
+
+  /* top bar */
+  .topbar{
+    position:absolute; top:0; left:0; right:0; height:70px;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 70px; z-index:30;
+    border-bottom:1px solid var(--line);
+  }
+  .brand{ font-family:'Orbitron', sans-serif; font-weight:900; letter-spacing:6px; font-size:20px; color:var(--cyan); text-shadow:0 0 12px var(--cyan-glow); }
+  .brand small{ display:block; font-family:'Share Tech Mono', monospace; letter-spacing:3px; font-size:10px; color:var(--text-dim); font-weight:400; margin-top:2px; }
+  .status-cluster{ display:flex; gap:26px; align-items:center; font-family:'Share Tech Mono', monospace; font-size:12px; color:var(--text-dim); letter-spacing:1px; }
+  .status-cluster .dot{ width:7px; height:7px; border-radius:50%; background:var(--cyan); display:inline-block; margin-right:6px; box-shadow:0 0 8px var(--cyan); animation:pulse-dot 2s infinite; }
+  @keyframes pulse-dot{ 0%,100%{opacity:1;} 50%{opacity:.35;} }
+  #clock{ color:var(--cyan); }
+  #modelTag{ color:var(--amber); }
+
+  /* main grid */
+  .main{
+    position:absolute; top:70px; bottom:64px; left:0; right:0;
+    display:grid; grid-template-columns: 240px 1fr 240px;
+    gap:0; z-index:20;
+  }
+  @media (max-width:900px){
+    .main{ grid-template-columns: 1fr; }
+    .side{ display:none; }
+  }
+
+  .side{ padding:26px 22px; display:flex; flex-direction:column; gap:22px; }
+  .side.left{ border-right:1px solid var(--line); }
+  .side.right{ border-left:1px solid var(--line); }
+
+  .panel-label{ font-family:'Orbitron',sans-serif; font-size:10px; letter-spacing:3px; color:var(--cyan); opacity:.85; margin-bottom:10px; }
+
+  .metric{ margin-bottom:14px; }
+  .metric-head{ display:flex; justify-content:space-between; font-family:'Share Tech Mono',monospace; font-size:10.5px; color:var(--text-dim); margin-bottom:5px; letter-spacing:1px; }
+  .metric-head span.val{ color:var(--cyan); }
+  .bar-track{ height:5px; background:rgba(95,216,255,0.08); border:1px solid var(--line); position:relative; overflow:hidden; }
+  .bar-fill{ height:100%; background:linear-gradient(90deg, var(--cyan-dim), var(--cyan)); box-shadow:0 0 8px var(--cyan-glow); transition:width 1.2s ease; }
+
+  .mini-log{ font-family:'Share Tech Mono',monospace; font-size:10.5px; line-height:1.9; color:var(--text-dim); }
+  .mini-log .line{ opacity:0; animation: fadeIn .6s forwards; }
+  .mini-log .line b{ color:var(--cyan); font-weight:400; }
+  @keyframes fadeIn{ to{ opacity:1; } }
+
+  .radial-list{ display:flex; flex-direction:column; gap:8px; }
+  .radial-item{ display:flex; align-items:center; gap:10px; font-family:'Share Tech Mono',monospace; font-size:11px; color:var(--text-dim); }
+  .ring-sm{ width:14px; height:14px; border-radius:50%; border:2px solid var(--cyan-dim); border-top-color:var(--cyan); animation:spin 3s linear infinite; flex:none; }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+
+  /* center core */
+  .core-wrap{ position:relative; display:flex; align-items:center; justify-content:center; flex-direction:column; }
+  .core-stage{ position:relative; width:min(46vh,380px); height:min(46vh,380px); }
+  .ring{ position:absolute; inset:0; border-radius:50%; border:1px solid var(--line); }
+  .ring.r1{ animation: spin 18s linear infinite; border-top-color:var(--cyan); border-style:dashed; }
+  .ring.r2{ inset:34px; animation: spin 12s linear infinite reverse; border-right-color:var(--cyan); }
+  .ring.r3{ inset:68px; animation: spin 24s linear infinite; border-left-color:var(--amber); opacity:.7; }
+  .sweep{ position:absolute; inset:34px; border-radius:50%; overflow:hidden; }
+  .sweep::before{
+    content:''; position:absolute; inset:0;
+    background: conic-gradient(from 0deg, rgba(95,216,255,0.35), transparent 40%);
+    animation: spin 4s linear infinite;
+  }
+  .core-center{
+    position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+    width:34%; height:34%; border-radius:50%;
+    background: radial-gradient(circle at 40% 35%, #eafcff 0%, var(--cyan) 30%, #0b3a4a 75%, transparent 100%);
+    box-shadow: 0 0 40px 10px var(--cyan-glow), 0 0 90px 30px rgba(95,216,255,0.25);
+    animation: breathe 3.4s ease-in-out infinite;
+  }
+  @keyframes breathe{ 0%,100%{ transform:translate(-50%,-50%) scale(1); } 50%{ transform:translate(-50%,-50%) scale(1.06); } }
+  .core-wrap.thinking .core-center{ animation: breathe 0.9s ease-in-out infinite; }
+  .core-wrap.thinking .ring.r1{ animation-duration:4s; }
+  .core-wrap.thinking .ring.r2{ animation-duration:2.4s; }
+
+  .core-title{ margin-top:22px; font-family:'Orbitron',sans-serif; font-size:12px; letter-spacing:5px; color:var(--text-dim); }
+  .core-title b{ color:var(--cyan); font-weight:700; text-shadow:0 0 10px var(--cyan-glow); }
+
+  .response-box{
+    margin-top:18px; width:min(560px,86%); min-height:64px;
+    border:1px solid var(--line); background:rgba(95,216,255,0.03);
+    padding:14px 18px; font-family:'Share Tech Mono',monospace; font-size:13px;
+    color:var(--text); line-height:1.6; position:relative;
+  }
+  .response-box::before{ content:'JARVIS >'; position:absolute; top:-9px; left:14px; background:var(--bg-deep); padding:0 8px; font-size:10px; letter-spacing:2px; color:var(--cyan); }
+  .response-box.empty{ color:var(--text-dim); font-style:italic; }
+  .cursor-blink{ display:inline-block; width:7px; height:14px; background:var(--cyan); margin-left:4px; vertical-align:middle; animation:blink 1s steps(1) infinite; }
+  @keyframes blink{ 50%{ opacity:0; } }
+
+  /* bottom command bar */
+  .cmdbar{
+    position:absolute; left:0; right:0; bottom:0; height:64px; z-index:30;
+    display:flex; align-items:center; gap:14px; padding:0 70px;
+    border-top:1px solid var(--line);
+    background:linear-gradient(0deg, rgba(95,216,255,0.03), transparent);
+  }
+  .cmd-prompt{ font-family:'Share Tech Mono',monospace; color:var(--cyan); font-size:14px; letter-spacing:1px; }
+  #cmdInput{
+    flex:1; background:transparent; border:none; outline:none;
+    font-family:'Share Tech Mono',monospace; font-size:14px; color:var(--text);
+    letter-spacing:.5px;
+  }
+  #cmdInput::placeholder{ color:var(--text-dim); }
+  .send-btn{
+    font-family:'Orbitron',sans-serif; font-size:10px; letter-spacing:2px;
+    background:transparent; border:1px solid var(--cyan-dim); color:var(--cyan);
+    padding:9px 16px; cursor:pointer; transition:.2s; white-space:nowrap;
+  }
+  .send-btn:hover{ background:rgba(95,216,255,0.12); box-shadow:0 0 12px var(--cyan-glow); }
+  .send-btn:disabled{ opacity:.35; cursor:default; }
+  .send-btn.active{ background:rgba(95,216,255,0.15); border-color:var(--cyan); box-shadow:0 0 12px var(--cyan-glow); color:#fff; }
+  .send-btn.warn{ color:var(--amber); border-color:var(--amber); }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="corner tl"></div><div class="corner tr"></div>
+  <div class="corner bl"></div><div class="corner br"></div>
+
+  <div class="topbar">
+    <div class="brand">J.A.R.V.I.S.<small>JUST A RATHER VERY INTELLIGENT SYSTEM</small></div>
+    <div class="status-cluster">
+      <div><span class="dot"></span>ALL SYSTEMS NOMINAL</div>
+      <div>MODEL: <span id="modelTag">--</span></div>
+      <div id="clock">--:--:--</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="side left">
+      <div>
+        <div class="panel-label">DIAGNOSTICS</div>
+        <div class="metric">
+          <div class="metric-head"><span>POWER CORE</span><span class="val" id="m1v">97%</span></div>
+          <div class="bar-track"><div class="bar-fill" id="m1" style="width:97%"></div></div>
+        </div>
+        <div class="metric">
+          <div class="metric-head"><span>NEURAL LOAD</span><span class="val" id="m2v">42%</span></div>
+          <div class="bar-track"><div class="bar-fill" id="m2" style="width:42%"></div></div>
+        </div>
+        <div class="metric">
+          <div class="metric-head"><span>NETWORK</span><span class="val" id="m3v">88%</span></div>
+          <div class="bar-track"><div class="bar-fill" id="m3" style="width:88%"></div></div>
+        </div>
+        <div class="metric">
+          <div class="metric-head"><span>SUIT UPLINK</span><span class="val" id="m4v">100%</span></div>
+          <div class="bar-track"><div class="bar-fill" id="m4" style="width:100%"></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="panel-label">SUBROUTINES</div>
+        <div class="radial-list">
+          <div class="radial-item"><div class="ring-sm"></div>ATMOSPHERIC SCAN</div>
+          <div class="radial-item"><div class="ring-sm"></div>THREAT ASSESSMENT</div>
+          <div class="radial-item"><div class="ring-sm"></div>COMMS ENCRYPTION</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="core-wrap" id="coreWrap">
+      <div class="core-stage">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <div class="sweep"></div>
+        <div class="core-center"></div>
+      </div>
+      <div class="core-title">SIR, I AM AT YOUR <b>SERVICE</b></div>
+      <div class="response-box empty" id="responseBox">Standing by for your command<span class="cursor-blink"></span></div>
+    </div>
+
+    <div class="side right">
+      <div>
+        <div class="panel-label">ACTIVITY LOG</div>
+        <div class="mini-log" id="log"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cmdbar">
+    <div class="cmd-prompt">&gt;</div>
+    <input id="cmdInput" type="text" placeholder="Speak your command, sir..." autocomplete="off"/>
+    <button class="send-btn" id="voiceBtn" title="One-shot voice command">VOICE</button>
+    <button class="send-btn" id="wakeBtn" title="Always-on listening for 'Hey Jarvis'">WAKE</button>
+    <button class="send-btn" id="audioBtn" title="Toggle spoken replies">AUDIO ON</button>
+    <button class="send-btn active" id="researchBtn" title="Check the web before answering">RESEARCH ON</button>
+    <button class="send-btn" id="sendBtn">TRANSMIT</button>
+  </div>
+
+  <div class="flicker"></div>
+  <div class="overlay"></div>
+</div>
+
+<script>
+  // ---- clock ----
+  function tick(){
+    const d = new Date();
+    document.getElementById('clock').textContent = d.toLocaleTimeString('en-GB');
+  }
+  tick(); setInterval(tick,1000);
+
+  // ---- wobble diagnostic bars ----
+  const bars = [
+    {el:document.getElementById('m1'), v:document.getElementById('m1v'), base:97, range:3},
+    {el:document.getElementById('m2'), v:document.getElementById('m2v'), base:42, range:18},
+    {el:document.getElementById('m3'), v:document.getElementById('m3v'), base:88, range:8},
+    {el:document.getElementById('m4'), v:document.getElementById('m4v'), base:100, range:0},
+  ];
+  function wobble(){
+    bars.forEach(b=>{
+      const val = Math.max(1, Math.min(100, Math.round(b.base + (Math.random()-0.5)*b.range)));
+      b.el.style.width = val + '%';
+      b.v.textContent = val + '%';
+    });
+  }
+  setInterval(wobble, 2200);
+
+  // ---- activity log ----
+  const logEl = document.getElementById('log');
+  const logLines = [
+    'Boot sequence <b>complete</b>',
+    'Uplink to satellite <b>stable</b>',
+    'Perimeter scan <b>clear</b>',
+    'Firewall integrity <b>100%</b>',
+    'Voice ID <b>confirmed</b>',
+    'Idle cycle <b>optimized</b>',
+  ];
+  let li = 0;
+  function pushLog(text){
+    const div = document.createElement('div');
+    div.className = 'line';
+    div.innerHTML = '[' + new Date().toLocaleTimeString('en-GB').slice(0,5) + '] ' + text;
+    logEl.appendChild(div);
+    while(logEl.children.length > 8){ logEl.removeChild(logEl.firstChild); }
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+  logLines.forEach((l,i)=> setTimeout(()=>pushLog(l), i*500));
+  setInterval(()=>{ pushLog(logLines[Math.floor(Math.random()*logLines.length)]); }, 6000);
+
+  // ---- core + command interaction ----
+  const coreWrap = document.getElementById('coreWrap');
+  const responseBox = document.getElementById('responseBox');
+  const cmdInput = document.getElementById('cmdInput');
+  const sendBtn = document.getElementById('sendBtn');
+
+  const chatHistory = [];
+  const researchBtn = document.getElementById('researchBtn');
+  let researchOn = true;
+
+  function setResponse(text, isEmpty){
+    responseBox.classList.toggle('empty', !!isEmpty);
+    responseBox.innerHTML = text + (isEmpty ? '<span class="cursor-blink"></span>' : '');
+  }
+
+  function capHistory(){
+    while(chatHistory.length > 8){ chatHistory.shift(); }
+  }
+
+  function esc(s){
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+            .replace(/\n/g,'<br>');
+  }
+
+  researchBtn.addEventListener('click', ()=>{
+    researchOn = !researchOn;
+    researchBtn.textContent = researchOn ? 'RESEARCH ON' : 'RESEARCH OFF';
+    researchBtn.classList.toggle('active', researchOn);
+    pushLog(researchOn ? 'Web research <b>engaged</b>' : 'Web research <b>disabled</b>');
+  });
+
+  async function askJarvis(command){
+    coreWrap.classList.add('thinking');
+    setResponse(researchOn
+      ? 'Scanning the web<span class="cursor-blink"></span>'
+      : 'Processing<span class="cursor-blink"></span>', false);
+    sendBtn.disabled = true;
+
+    chatHistory.push({ role: 'user', content: command });
+    capHistory();
+
+    let full = '';
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: chatHistory, research: researchOn })
+      });
+      if(!response.ok){
+        const data = await response.json().catch(()=>({}));
+        throw new Error(data.error || ('bad status ' + response.status));
+      }
+      setResponse('', false);
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '', researchInfo = null;
+      for(;;){
+        const { done, value } = await reader.read();
+        if(done) break;
+        buffer += decoder.decode(value, { stream: true });
+        let nl;
+        while((nl = buffer.indexOf('\n')) >= 0){
+          const line = buffer.slice(0, nl).trim();
+          buffer = buffer.slice(nl + 1);
+          if(!line) continue;
+          let msg;
+          try { msg = JSON.parse(line); } catch(e){ continue; }
+          if(msg.error) throw new Error(msg.error);
+          if(msg.delta){ full += msg.delta; setResponse(esc(full), false); }
+          if(msg.done) researchInfo = msg.research;
+        }
+      }
+      if(!full) full = "I'm afraid I have nothing to report, sir.";
+      if(!/\bsir\b/i.test(full)){
+        full = full.replace(/^i(?=\s)/, 'I')
+                   .replace(/^(the|a|an|it|this|that|there|here|what|why|how|when|where|who|which|is|are|do|does|did|can|could)\b/, w => w.toLowerCase());
+        full = 'Sir, ' + full;
+      }
+      chatHistory.push({ role: 'assistant', content: full });
+      capHistory();
+      setResponse(esc(full), false);
+      pushLog('Command <b>executed</b>');
+      if(researchInfo){
+        pushLog(researchInfo.sources > 0
+          ? `Web scan <b>complete</b> — ${researchInfo.sources} sources`
+          : 'Web scan <b>returned nothing</b>');
+      }
+      speakReply(full);
+    } catch (err) {
+      setResponse("Apologies, sir — I'm having trouble reaching the local model. Is Ollama running?", false);
+      pushLog('Uplink <b>error</b>');
+    } finally {
+      coreWrap.classList.remove('thinking');
+      sendBtn.disabled = false;
+    }
+  }
+
+  function submitText(text){
+    const val = (text ?? cmdInput.value).trim();
+    if(!val) return;
+    cmdInput.value = '';
+    askJarvis(val);
+  }
+  sendBtn.addEventListener('click', ()=> submitText());
+  cmdInput.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') submitText(); });
+
+  // ---- model status ----
+  fetch("/api/health").then(r=>r.json()).then(h=>{
+    document.getElementById('modelTag').textContent = h.model || 'OFFLINE';
+    if(!h.ok){
+      setResponse('Local model offline, sir. Please start Ollama.', true);
+    }
+  }).catch(()=>{
+    document.getElementById('modelTag').textContent = 'OFFLINE';
+  });
+
+  // ---- voice: spoken replies ----
+  const audioBtn = document.getElementById('audioBtn');
+  let speakOn = true;
+  function speakReply(text){
+    if(!speakOn || !('speechSynthesis' in window)) return;
+    pauseVoiceInput();
+    const u = new SpeechSynthesisUtterance(text.replace(/[#*_`]/g,''));
+    const voices = speechSynthesis.getVoices().filter(v=>/en/i.test(v.lang));
+    const pref = voices.find(v=>/natural|neural|online/i.test(v.name)) || voices[0];
+    if(pref) u.voice = pref;
+    u.rate = 1.02;
+    u.onend = resumeVoiceInput;
+    u.onerror = resumeVoiceInput;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  }
+  audioBtn.addEventListener('click', ()=>{
+    speakOn = !speakOn;
+    audioBtn.textContent = speakOn ? 'AUDIO ON' : 'AUDIO OFF';
+    audioBtn.classList.toggle('active', !speakOn);
+    if(!speakOn) speechSynthesis.cancel();
+  });
+
+  // ---- voice: input ----
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const voiceBtn = document.getElementById('voiceBtn');
+  const wakeBtn = document.getElementById('wakeBtn');
+  let recognition = null;
+  let wakeMode = false;
+
+  function pauseVoiceInput(){
+    if(recognition && wakeMode){ try{ recognition.stop(); }catch(e){} }
+  }
+  function resumeVoiceInput(){
+    if(recognition && wakeMode){
+      try{ recognition.start(); }catch(e){}
+    }
+  }
+
+  function startRecognition(oneShot){
+    if(!SR){
+      setResponse('Voice input is not supported in this browser, sir. Use Chrome or Edge.', true);
+      return;
+    }
+    if(recognition){ try{ recognition.stop(); }catch(e){} }
+    recognition = new SR();
+    recognition.lang = 'en-US';
+    recognition.continuous = !oneShot;
+    recognition.interimResults = false;
+
+    recognition.onresult = (ev) => {
+      const text = Array.from(ev.results).map(r=>r[0].transcript).join(' ').trim();
+      if(!text) return;
+      if(oneShot){
+        pushLog('Voice command <b>received</b>');
+        submitText(text);
+      } else {
+        const t = text.toLowerCase();
+        const m = t.match(/(hey |okay )?jarvis/);
+        if(m){
+          const cmd = t.slice(m.index + m[0].length).replace(/^[\s,.:;!?]+/,'').trim();
+          pushLog('Wake word <b>detected</b>');
+          if(cmd){ submitText(cmd); }
+          else {
+            const greeting = 'Welcome back, sir. How can I assist you today?';
+            setResponse(greeting, false);
+            speakReply(greeting);
+          }
+        }
+      }
+    };
+    recognition.onend = () => {
+      if(wakeMode && !oneShot){ try{ recognition.start(); }catch(e){} }
+    };
+    recognition.onerror = (e) => {
+      if(e.error === 'not-allowed' || e.error === 'service-not-allowed'){
+        wakeMode = false;
+        wakeBtn.classList.remove('active');
+        pushLog('Mic access <b>denied</b>');
+      }
+    };
+    try {
+      recognition.start();
+    } catch(e){}
+  }
+
+  voiceBtn.addEventListener('click', ()=>{
+    voiceBtn.disabled = true;
+    startRecognition(true);
+    pushLog('Listening for <b>one command</b>');
+    setTimeout(()=>{ voiceBtn.disabled = false; }, 3000);
+  });
+
+  wakeBtn.addEventListener('click', ()=>{
+    wakeMode = !wakeMode;
+    wakeBtn.classList.toggle('active', wakeMode);
+    wakeBtn.textContent = wakeMode ? 'WAKE: ON' : 'WAKE';
+    if(wakeMode){
+      pushLog('Always-on listening <b>engaged</b>');
+      startRecognition(false);
+    } else {
+      if(recognition){ try{ recognition.stop(); }catch(e){} }
+      pushLog('Always-on listening <b>disengaged</b>');
+    }
+  });
+</script>
+</body>
+</html>
