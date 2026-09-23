@@ -1,0 +1,1208 @@
+/* =========================================
+   NOVA CORE UI
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #020202;
+    --gold: #d9a928;
+    --bright-gold: #ffd85c;
+    --dark-gold: #604a12;
+    --green: #55e878;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #100c03 0%,
+            #050403 35%,
+            #010101 75%
+        );
+
+    color: white;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+}
+
+
+/* =========================================
+   STATUS BAR
+========================================= */
+
+.status-bar {
+    position: absolute;
+
+    top: 25px;
+    left: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    z-index: 20;
+}
+
+.status-light {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+
+    background: var(--green);
+
+    box-shadow:
+        0 0 8px var(--green),
+        0 0 20px rgba(85, 232, 120, 0.5);
+
+    animation: statusPulse 2s infinite;
+}
+
+@keyframes statusPulse {
+
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: scale(0.85);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.status-text span {
+    display: block;
+
+    color: var(--green);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.status-text small {
+    display: block;
+
+    margin-top: 2px;
+
+    color: #555;
+
+    font-size: 10px;
+}
+
+
+/* =========================================
+   NOVA TITLE
+========================================= */
+
+.nova-title {
+    position: absolute;
+
+    top: 22px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: var(--bright-gold);
+
+    font-size: 38px;
+
+    font-weight: 300;
+
+    letter-spacing: 8px;
+
+    z-index: 20;
+
+    text-shadow:
+        0 0 12px rgba(255, 216, 92, 0.3);
+}
+
+.nova-title span {
+    position: relative;
+}
+
+.nova-star {
+    position: absolute;
+
+    top: -12px;
+    right: 1px;
+
+    font-size: 13px;
+
+    color: white;
+
+    text-shadow:
+        0 0 8px var(--bright-gold);
+}
+
+.title-line {
+    width: 125px;
+
+    height: 1px;
+
+    margin: 3px auto 0;
+
+    background: var(--gold);
+
+    box-shadow:
+        0 0 8px var(--gold);
+}
+
+
+/* =========================================
+   GLOBE CONTAINER
+========================================= */
+
+.globe-container {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    width: 650px;
+    height: 650px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================
+   GLOBE
+========================================= */
+
+.globe {
+    position: relative;
+
+    width: 520px;
+    height: 520px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle at 45% 42%,
+            rgba(255, 216, 92, 0.08),
+            transparent 45%
+        );
+
+    box-shadow:
+        0 0 35px rgba(217, 169, 40, 0.08),
+        inset 0 0 60px rgba(217, 169, 40, 0.05);
+
+    animation: globeFloat 6s ease-in-out infinite;
+}
+
+@keyframes globeFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+
+/* =========================================
+   OUTER RINGS
+========================================= */
+
+.ring {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    border: 1px solid rgba(217, 169, 40, 0.18);
+
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.ring-1 {
+    width: 530px;
+    height: 530px;
+
+    animation: rotateRing 30s linear infinite;
+}
+
+.ring-2 {
+    width: 570px;
+    height: 570px;
+
+    border-style: dashed;
+
+    animation: rotateRingReverse 45s linear infinite;
+}
+
+.ring-3 {
+    width: 620px;
+    height: 620px;
+
+    border-color: rgba(217, 169, 40, 0.08);
+
+    animation: rotateRing 60s linear infinite;
+}
+
+@keyframes rotateRing {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+}
+
+@keyframes rotateRingReverse {
+    from {
+        transform:
+            translate(-50%, -50%)
+            rotate(360deg);
+    }
+
+    to {
+        transform:
+            translate(-50%, -50%)
+            rotate(0deg);
+    }
+}
+
+
+/* =========================================
+   LATITUDE
+========================================= */
+
+.latitude,
+.longitude {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    border: 1px solid rgba(217, 169, 40, 0.15);
+
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.latitude {
+    width: 500px;
+    height: 150px;
+}
+
+.latitude-1 {
+    transform:
+        translate(-50%, -50%)
+        rotate(12deg);
+}
+
+.latitude-2 {
+    transform:
+        translate(-50%, -50%)
+        rotate(-12deg);
+}
+
+.latitude-3 {
+    width: 480px;
+    height: 300px;
+}
+
+.latitude-4 {
+    width: 450px;
+    height: 420px;
+}
+
+
+/* =========================================
+   LONGITUDE
+========================================= */
+
+.longitude {
+    width: 500px;
+    height: 500px;
+
+    border-color: rgba(217, 169, 40, 0.13);
+}
+
+.longitude-1 {
+    transform:
+        translate(-50%, -50%)
+        rotateX(55deg);
+}
+
+.longitude-2 {
+    transform:
+        translate(-50%, -50%)
+        rotateY(55deg);
+}
+
+.longitude-3 {
+    transform:
+        translate(-50%, -50%)
+        rotateX(-55deg);
+}
+
+.longitude-4 {
+    transform:
+        translate(-50%, -50%)
+        rotateY(-55deg);
+}
+
+
+/* =========================================
+   NEURAL NETWORK
+========================================= */
+
+.network {
+    position: absolute;
+
+    inset: 45px;
+
+    border-radius: 50%;
+
+    animation: networkRotate 35s linear infinite;
+}
+
+@keyframes networkRotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* =========================================
+   NODES
+========================================= */
+
+.node {
+    position: absolute;
+
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: var(--bright-gold);
+
+    box-shadow:
+        0 0 7px var(--bright-gold),
+        0 0 17px var(--gold);
+
+    animation:
+        nodePulse 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes nodePulse {
+
+    from {
+        opacity: 0.35;
+        transform: scale(0.7);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.4);
+    }
+}
+
+
+/* Node positions */
+
+.n1  { left: 20%; top: 28%; }
+.n2  { left: 32%; top: 18%; }
+.n3  { left: 48%; top: 14%; }
+.n4  { left: 65%; top: 20%; }
+.n5  { left: 78%; top: 32%; }
+.n6  { left: 83%; top: 48%; }
+.n7  { left: 76%; top: 65%; }
+.n8  { left: 64%; top: 78%; }
+.n9  { left: 48%; top: 84%; }
+.n10 { left: 31%; top: 77%; }
+.n11 { left: 19%; top: 63%; }
+.n12 { left: 14%; top: 47%; }
+
+.n13 { left: 34%; top: 35%; }
+.n14 { left: 52%; top: 28%; }
+.n15 { left: 68%; top: 40%; }
+.n16 { left: 65%; top: 58%; }
+.n17 { left: 50%; top: 68%; }
+.n18 { left: 34%; top: 61%; }
+.n19 { left: 29%; top: 48%; }
+.n20 { left: 51%; top: 47%; }
+
+
+/* =========================================
+   NEURAL CONNECTIONS
+========================================= */
+
+.line {
+    position: absolute;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            transparent
+        );
+
+    transform-origin: left center;
+
+    opacity: 0.55;
+
+    box-shadow:
+        0 0 6px rgba(217, 169, 40, 0.5);
+}
+
+
+/* Connections */
+
+.l1  {
+    width: 150px;
+    left: 20%;
+    top: 28%;
+    transform: rotate(-27deg);
+}
+
+.l2 {
+    width: 120px;
+    left: 32%;
+    top: 18%;
+    transform: rotate(10deg);
+}
+
+.l3 {
+    width: 130px;
+    left: 48%;
+    top: 14%;
+    transform: rotate(28deg);
+}
+
+.l4 {
+    width: 125px;
+    left: 65%;
+    top: 20%;
+    transform: rotate(40deg);
+}
+
+.l5 {
+    width: 110px;
+    left: 78%;
+    top: 32%;
+    transform: rotate(90deg);
+}
+
+.l6 {
+    width: 140px;
+    left: 83%;
+    top: 48%;
+    transform: rotate(135deg);
+}
+
+.l7 {
+    width: 125px;
+    left: 76%;
+    top: 65%;
+    transform: rotate(180deg);
+}
+
+.l8 {
+    width: 145px;
+    left: 64%;
+    top: 78%;
+    transform: rotate(220deg);
+}
+
+.l9 {
+    width: 130px;
+    left: 48%;
+    top: 84%;
+    transform: rotate(260deg);
+}
+
+.l10 {
+    width: 130px;
+    left: 31%;
+    top: 77%;
+    transform: rotate(310deg);
+}
+
+.l11 {
+    width: 130px;
+    left: 19%;
+    top: 63%;
+    transform: rotate(350deg);
+}
+
+.l12 {
+    width: 120px;
+    left: 14%;
+    top: 47%;
+    transform: rotate(20deg);
+}
+
+.l13 {
+    width: 120px;
+    left: 34%;
+    top: 35%;
+    transform: rotate(-20deg);
+}
+
+.l14 {
+    width: 120px;
+    left: 52%;
+    top: 28%;
+    transform: rotate(60deg);
+}
+
+.l15 {
+    width: 110px;
+    left: 68%;
+    top: 40%;
+    transform: rotate(145deg);
+}
+
+.l16 {
+    width: 130px;
+    left: 50%;
+    top: 68%;
+    transform: rotate(210deg);
+}
+
+
+/* =========================================
+   CORE
+========================================= */
+
+.core {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 125px;
+    height: 125px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(
+            circle,
+            #211704 0%,
+            #080703 65%,
+            #020202 100%
+        );
+
+    border: 1px solid var(--bright-gold);
+
+    box-shadow:
+        0 0 20px rgba(255, 216, 92, 0.5),
+        0 0 60px rgba(217, 169, 40, 0.25),
+        inset 0 0 30px rgba(217, 169, 40, 0.2);
+
+    z-index: 5;
+}
+
+.core span {
+    color: var(--bright-gold);
+
+    font-size: 20px;
+
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 0 12px var(--gold);
+}
+
+.core-glow {
+    position: absolute;
+
+    inset: -20px;
+
+    border-radius: 50%;
+
+    border: 1px solid rgba(255, 216, 92, 0.2);
+
+    animation: corePulse 2.5s infinite;
+}
+
+@keyframes corePulse {
+
+    0% {
+        transform: scale(0.8);
+
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.3);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================================
+   TASK PANEL
+========================================= */
+
+.task-panel {
+    position: absolute;
+
+    top: 100px;
+    right: 30px;
+
+    width: 260px;
+
+    padding: 18px;
+
+    border: 1px solid rgba(217, 169, 40, 0.3);
+
+    border-radius: 12px;
+
+    background:
+        rgba(3, 3, 3, 0.75);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 0 30px rgba(217, 169, 40, 0.04);
+
+    z-index: 20;
+}
+
+.task-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid #222;
+
+    color: var(--bright-gold);
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+}
+
+.task-indicator {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #555;
+}
+
+
+/* =========================================
+   IDLE
+========================================= */
+
+.idle {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding-top: 18px;
+
+    color: #777;
+}
+
+.idle-dot {
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+    background: #555;
+}
+
+.idle strong {
+    display: block;
+
+    color: #999;
+
+    font-size: 13px;
+}
+
+.idle small {
+    display: block;
+
+    margin-top: 4px;
+
+    color: #555;
+
+    font-size: 10px;
+}
+
+
+/* =========================================
+   CHATBOX
+========================================= */
+
+.chatbox {
+    position: absolute;
+
+    bottom: 30px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: min(800px, 70vw);
+
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 10px 0 22px;
+
+    border: 1px solid var(--gold);
+
+    border-radius: 40px;
+
+    background:
+        rgba(3, 3, 3, 0.9);
+
+    box-shadow:
+        0 0 25px rgba(217, 169, 40, 0.08);
+
+    z-index: 30;
+}
+
+.chat-icon {
+    color: var(--bright-gold);
+
+    font-size: 21px;
+
+    margin-right: 15px;
+
+    text-shadow:
+        0 0 10px var(--gold);
+}
+
+.chatbox input {
+    flex: 1;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 15px;
+}
+
+.chatbox input::placeholder {
+    color: #555;
+}
+
+.chatbox button {
+    width: 47px;
+    height: 47px;
+
+    border-radius: 50%;
+
+    border: 1px solid var(--gold);
+
+    background: transparent;
+
+    color: var(--bright-gold);
+
+    font-size: 19px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.chatbox button:hover {
+    background: var(--gold);
+
+    color: black;
+
+    box-shadow:
+        0 0 20px rgba(217, 169, 40, 0.5);
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .globe {
+        transform: scale(0.75);
+    }
+
+    .task-panel {
+        right: 15px;
+        width: 220px;
+    }
+
+    .chatbox {
+        width: 85vw;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .nova-title {
+        font-size: 28px;
+    }
+
+    .status-bar {
+        top: 20px;
+        left: 15px;
+    }
+
+    .task-panel {
+        display: none;
+    }
+
+    .globe {
+        transform: scale(0.6);
+    }
+
+    .chatbox {
+        bottom: 20px;
+        width: 92vw;
+    }
+}
+
+
+/* =========================================
+   CHAT LOG (injected by script.js)
+========================================= */
+
+.chat-log {
+    position: absolute;
+
+    bottom: 115px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: min(800px, 70vw);
+
+    max-height: 42vh;
+
+    /* scrollbar hidden — wheel scrolling and the auto-scroll to the
+       newest message still work; only the bar itself is invisible */
+    overflow-y: auto;
+
+    scrollbar-width: none;
+
+    -ms-overflow-style: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    padding: 6px 4px;
+
+    z-index: 25;
+}
+
+.chat-log::-webkit-scrollbar {
+
+    display: none;
+
+    width: 0;
+
+    height: 0;
+
+}
+
+.chat-msg {
+    max-width: 78%;
+
+    padding: 10px 16px;
+
+    border-radius: 14px;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    border: 1px solid rgba(217, 169, 40, 0.3);
+
+    background: rgba(3, 3, 3, 0.85);
+}
+
+.chat-msg.user {
+    align-self: flex-end;
+
+    border-color: rgba(217, 169, 40, 0.55);
+
+    background: rgba(217, 169, 40, 0.08);
+}
+
+.chat-msg .who {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: var(--gold);
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+.status-light.busy {
+    background: var(--bright-gold);
+
+    box-shadow:
+        0 0 8px var(--bright-gold),
+        0 0 20px rgba(255, 216, 92, 0.6);
+}
+
+
+/* =========================================
+   BEAST MODE TOGGLE
+========================================= */
+
+/* beast-toggle button removed — Beast Mode is voice/command-only now
+   ('enter beast mode' / 'come back to normal mode') */
+
+
+
+/* =========================================
+   BEAST TRANSITION (normal -> beast)
+========================================= */
+
+.beast-transition {
+    position: fixed;
+
+    inset: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+
+    z-index: 90;
+
+    opacity: 0;
+}
+
+.beast-transition.active {
+    opacity: 1;
+}
+
+.beast-transition .shockwave {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    border: 2px solid #ff1a1a;
+
+    border-radius: 50%;
+
+    opacity: 0;
+}
+
+.beast-transition.active .shockwave {
+    animation: shockwave 0.9s ease-out forwards;
+}
+
+.beast-transition.active .shockwave.w2 {
+    animation-delay: 0.15s;
+}
+
+.beast-transition.active .shockwave.w3 {
+    animation-delay: 0.3s;
+}
+
+@keyframes shockwave {
+
+    0% {
+        transform: scale(0.2);
+        opacity: 0.9;
+
+        box-shadow:
+            0 0 40px #ff1a1a,
+            inset 0 0 20px rgba(255, 26, 26, 0.8);
+    }
+
+    100% {
+        transform: scale(38);
+        opacity: 0;
+
+        box-shadow:
+            0 0 90px #ff1a1a;
+    }
+}
+
+.beast-transition .red-veil {
+    position: absolute;
+
+    inset: 0;
+
+    background: radial-gradient(
+        circle at center,
+        rgba(255, 20, 20, 0.55),
+        rgba(40, 0, 0, 0.85) 70%
+    );
+
+    opacity: 0;
+}
+
+.beast-transition.active .red-veil {
+    animation: veilIn 0.9s ease-out forwards;
+}
+
+@keyframes veilIn {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0.92;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.beast-transition .launch-text {
+    position: relative;
+
+    color: white;
+
+    font-size: 22px;
+
+    letter-spacing: 9px;
+
+    text-shadow:
+        0 0 14px #ff1a1a;
+
+    opacity: 0;
+}
+
+.beast-transition.active .launch-text {
+    animation: launchText 0.9s ease-out forwards;
+}
+
+@keyframes launchText {
+    0% {
+        opacity: 0;
+        letter-spacing: 2px;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.95;
+        letter-spacing: 12px;
+    }
+}
+
+
+/* normal page powers down when the transition runs */
+
+body.to-beast .globe-container,
+body.to-beast .task-panel,
+body.to-beast .chatbox,
+body.to-beast .nova-title {
+    animation: powerDown 0.85s ease-in forwards;
+}
+
+@keyframes powerDown {
+
+    0% {
+        filter: none;
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0.35;
+
+        filter: saturate(2.2) hue-rotate(-25deg) brightness(1.25);
+    }
+
+    100% {
+        opacity: 0;
+
+        filter: saturate(3) hue-rotate(-40deg) brightness(0.6);
+    }
+}
+
+body.to-beast .status-bar {
+    animation: powerDown 0.85s ease-in forwards;
+}

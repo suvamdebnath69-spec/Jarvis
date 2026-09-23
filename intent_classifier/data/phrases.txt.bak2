@@ -1,0 +1,1865 @@
+INTENT: OPEN_APP
+
+- open chrome
+- launch chrome
+- start chrome
+- can you open chrome
+- please open my browser
+- get chrome running
+- I need chrome open
+- start the browser for me
+- open VS Code
+- launch vscode
+- start spotify
+- open spotify please
+- can you start discord
+- launch discord for me
+- open notepad
+- start calculator
+- open the calculator
+- launch file explorer
+- open my file explorer
+- start microsoft word
+- open word for me
+- launch the terminal
+- open powershell
+- start the terminal
+- can you open discord
+- I want to use spotify
+- get vscode running
+- open the app
+- start an application
+- launch the program
+- fire up chrome
+- boot up vscode
+- open chrome for me
+- start up discord
+- launch the calculator app
+- open microsoft edge
+- start notepad++
+- get word open
+- open terminal please
+- launch powershell for me
+- start file explorer
+- open the music app
+- can you start chrome
+- bring up vscode
+- open spotify now
+- launch discord app
+- start the browser
+- open any browser
+- get the calculator running
+- open word document app
+- start command prompt
+- launch explorer
+- open the code editor
+- fire up the terminal
+- open firefox
+- launch edge
+- start opera
+- open brave
+- get chrome started
+- open visual studio code
+- launch code
+- start the code editor
+- open discord please
+- launch the chat app
+- start music player
+- open spotify app
+- get discord running
+- open notepad for me
+- launch the calculator
+- start windows explorer
+- open my documents folder
+- launch word
+- open microsoft word please
+- start the terminal app
+- open bash
+- launch cmd
+- start command line
+- open the browser
+- fire up the browser
+- boot chrome
+- open chrome browser
+- launch my browser
+- start vscode now
+- open the editor
+- get spotify open
+- launch the music app
+- open discord client
+- start the calculator program
+- open file manager
+- launch the file browser
+- open word processor
+- start ms word
+- open the shell
+- launch terminal emulator
+- open powershell window
+- start a new terminal
+- can you launch chrome
+- please start vscode
+- I need discord open
+- get the terminal running
+- open any code editor
+- launch the default browser
+- open the chrome app
+- launch the notepad application
+- open spotify program
+- start the discord app
+- run the calculator application
+- open my vscode editor
+
+INTENT: CLOSE_APP
+
+- close chrome
+- quit chrome
+- exit chrome
+- shut down chrome
+- close the browser
+- quit the browser
+- please close spotify
+- stop spotify
+- exit spotify
+- close discord
+- quit discord
+- shut discord
+- close VS Code
+- exit vscode
+- quit vscode
+- close notepad
+- exit notepad
+- close calculator
+- quit calculator
+- close file explorer
+- exit file explorer
+- close word
+- quit microsoft word
+- close the application
+- shut the app
+- get rid of this application
+- stop the program
+- quit the program
+- close the current app
+- exit the current application
+- kill chrome
+- force quit discord
+- shut down vscode
+- close spotify completely
+- end the browser
+- terminate notepad
+- close the calculator window
+- quit file explorer
+- stop microsoft word
+- exit the terminal
+- close powershell
+- shut the current program
+- get rid of discord
+- close this app please
+- stop running chrome
+- quit the music app
+- exit the code editor
+- close everything in this app
+- kill the process
+- shut down the application
+- close firefox
+- quit edge
+- exit opera
+- shut brave
+- close the browser window
+- force close chrome
+- kill the browser
+- quit vscode completely
+- close visual studio code
+- stop the code editor
+- exit discord client
+- close the chat app
+- quit the music player
+- stop spotify app
+- close notepad window
+- exit the calculator
+- shut the file manager
+- close windows explorer
+- quit word processor
+- exit ms word
+- close the shell
+- quit terminal emulator
+- exit cmd
+- close command prompt
+- kill the terminal
+- force quit the app
+- shut this program down
+- close running application
+- stop this software
+- end the current process
+- quit this window
+- close the active app
+- terminate the browser
+- kill vscode
+- force stop discord
+- exit the music app
+- close file browser
+- quit the editor
+- shut down powershell
+- close all instances of chrome
+- stop the calculator program
+- exit the file explorer
+- close microsoft edge
+- quit the default browser
+- kill this application
+- please quit chrome
+- can you close vscode
+- I want to close discord
+- get rid of the terminal
+- shut the app down
+- close the chrome app
+- quit the notepad application
+- exit the spotify program
+- kill the discord app process
+
+INTENT: CLOSE_TAB
+
+- close this tab
+- close the current tab
+- shut this tab
+- exit this tab
+- get rid of this tab
+- please close this tab
+- can you close the tab
+- close the page I'm on
+- shut the current page
+- close this browser tab
+- remove this tab
+- get this tab closed
+- close the active tab
+- exit the active tab
+- I don't need this tab
+- get rid of the current tab
+- close the tab please
+- can you shut this page
+- close the page
+- shut this browser tab
+- close the tab I'm using
+- exit this browser tab
+- please shut the current tab
+- close the open tab
+- remove the current tab
+- I want to close this tab
+- close whichever tab is active
+- shut the active tab
+- close the current browser page
+- get rid of the open tab
+- close tab
+- kill this tab
+- discard this tab
+- close the focused tab
+- shut the tab I'm looking at
+- remove the page
+- close current browser tab
+- exit the page
+- get this page closed
+- close the one I'm on
+- shut tab now
+- close active browser tab
+- I want this tab gone
+- remove the open page
+- close this one
+- close the selected tab
+- exit current tab
+- shut the tab
+- get rid of current page
+- close browser tab
+- remove active tab
+- kill the current tab
+- discard this page
+- close the tab in focus
+- shut this open tab
+- exit the focused tab
+- close whatever tab is open
+- get this browser tab closed
+- remove the page I'm on
+- close the tab right now
+- shut the page I'm viewing
+- exit this open page
+- close the browser page
+- kill active tab
+- discard current browser tab
+- close the one in front
+- remove this browser page
+- shut the tab I'm using
+- get rid of the focused tab
+- close this active page
+- exit the tab please
+- can you remove this tab
+- please discard the tab
+- I don't need the current tab
+- close the visible tab
+- shut the tab that's open
+- remove the active page
+- kill this browser tab
+- close tab I'm looking at
+- exit the open browser tab
+- get this one closed
+- discard the current page
+- close whichever is active
+- shut the focused page
+- remove this open tab
+- close the tab completely
+- exit this page now
+- kill the open tab
+- get rid of the page
+- close current page please
+- shut browser tab
+- remove the tab I'm on
+- close the active page
+- exit active browser tab
+- discard focused tab
+- close this browser page
+- shut the one that's active
+- get the tab closed
+- please close active tab
+- I want the current tab closed
+
+INTENT: OPEN_TAB
+
+- open a new tab
+- create a new tab
+- start a new tab
+- give me a new tab
+- can you open another tab
+- open another browser tab
+- make another tab
+- add a new tab
+- please open a new tab
+- launch a fresh tab
+- start another tab
+- I need a new tab
+- get me a new browser tab
+- open one more tab
+- make a fresh tab
+- create another browser tab
+- can you make a new tab
+- please add another tab
+- open another page in a tab
+- I want another tab
+- give me another browser tab
+- open a blank tab
+- create a blank tab
+- start a blank browser tab
+- add one more tab
+- make a new browser tab
+- open a fresh browser tab
+- I need another browser tab
+- get a new tab open
+- create a fresh tab
+- new tab please
+- open new tab
+- spawn a new tab
+- give me a blank page
+- add a tab
+- open empty tab
+- create one more tab
+- start a new browser page
+- I want a fresh tab
+- open another blank tab
+- make a new page
+- launch new tab
+- get me another tab
+- open tab
+- open a new browser tab
+- create a new browser page
+- start a fresh tab
+- give me one more tab
+- can you add a tab
+- open yet another tab
+- make a blank browser tab
+- create an empty tab
+- start another browser tab
+- I need a blank tab
+- get a fresh tab open
+- open a new empty tab
+- launch another tab
+- add a blank tab
+- make one more browser tab
+- create a new empty page
+- open a tab for me
+- start a blank page
+- give me a new empty tab
+- can you open a blank tab
+- please create a new tab
+- I want a new browser page
+- open one additional tab
+- make another blank tab
+- start a new empty tab
+- get me a blank browser tab
+- open fresh empty tab
+- create yet another tab
+- launch a blank tab
+- add a new browser page
+- make a new empty tab
+- open another empty page
+- start one more tab
+- give me another blank tab
+- can you spawn a tab
+- please open a blank page
+- I need one more browser tab
+- get a new empty tab
+- open a brand new tab
+- create a brand new tab
+- start a brand new browser tab
+- add a fresh empty tab
+- make a brand new page
+- open an additional tab
+- launch a new empty tab
+- get me a brand new tab
+- open tab now
+- create tab please
+- start new browser tab
+- give me empty tab
+- can you make blank tab
+- please add empty tab
+- I want blank browser tab
+- open another new tab
+- make one additional tab
+- create one additional tab
+
+INTENT: SCROLL
+
+- scroll down
+- scroll up
+- move down
+- move up
+- go down the page
+- go up the page
+- scroll the page
+- scroll down a little
+- scroll up a little
+- move the page down
+- move the page up
+- take me lower on the page
+- take me higher on the page
+- go to the bottom
+- go to the top
+- move toward the bottom
+- move toward the top
+- scroll to the bottom
+- scroll to the top
+- can you scroll down
+- please scroll up
+- scroll down a bit
+- scroll up a bit
+- move down the screen
+- move up the screen
+- go farther down
+- go farther up
+- take me down
+- take me up
+- scroll the screen
+- page down
+- page up
+- scroll a little more
+- keep scrolling down
+- scroll further up
+- jump to the bottom
+- jump to the top
+- move lower
+- move higher
+- scroll the content down
+- scroll the content up
+- go down some more
+- go up some more
+- scroll halfway
+- bring me to the bottom
+- bring me to the top
+- scroll down more
+- scroll up more
+- move a bit lower
+- move a bit higher
+- go further down the page
+- go further up the page
+- scroll down the screen
+- scroll up the screen
+- take me to the bottom
+- take me to the top
+- move down a little
+- move up a little
+- scroll down please
+- scroll up please
+- can you move down
+- can you move up
+- go down a bit
+- go up a bit
+- scroll the page down
+- scroll the page up
+- move toward bottom
+- move toward top
+- keep going down
+- keep going up
+- scroll more down
+- scroll more up
+- jump down
+- jump up
+- lower the page
+- raise the page
+- go to page bottom
+- go to page top
+- scroll all the way down
+- scroll all the way up
+- move to the bottom
+- move to the top
+- take me lower
+- take me higher
+- scroll down slowly
+- scroll up slowly
+- go down the screen
+- go up the screen
+- page further down
+- page further up
+- scroll content lower
+- scroll content higher
+- move the view down
+- move the view up
+- bring me lower
+- bring me higher
+- scroll to bottom please
+- scroll to top please
+- can you go down
+- can you go up
+- please move down
+- please move up
+- scroll down the page
+- scroll the window
+- page down please
+- scroll further down
+
+INTENT: SEARCH_WEB
+
+- search the web for python
+- search for python tutorials
+- look up python tutorials
+- find information about python
+- search online for this
+- look this up on the internet
+- can you search the web
+- search the internet
+- find this online
+- look for this online
+- search for the answer
+- find information online
+- google this
+- search google for python
+- look up the weather
+- search for today's weather
+- find the latest information
+- search the internet for this topic
+- can you look this up
+- please search for it
+- find this on the web
+- search online
+- do a web search
+- look this topic up
+- search for more information
+- find some information about this
+- search the web please
+- look for results online
+- search for that
+- find it on the internet
+- google python
+- search the web
+- look it up
+- web search for this
+- find results for
+- search online about
+- do a google search
+- look up online
+- search the net
+- find me information on
+- google search
+- search the web for answers
+- look this up for me
+- search google
+- search for python
+- look up python
+- find python info
+- search the web about
+- google this topic
+- look this up on google
+- search online for answers
+- find info on the internet
+- do an internet search
+- search the web now
+- look for this on the web
+- find this information online
+- search for current info
+- google the topic
+- look up this subject
+- search the internet please
+- can you google this
+- please look this up
+- find results online
+- search web for me
+- look online for this
+- do a search for
+- search for information on
+- find online information
+- google search this
+- look this subject up
+- search the net for
+- find me results
+- web search please
+- search google online
+- look up on the web
+- find this on google
+- search for that online
+- can you find this online
+- please search the web
+- look for more info
+- search the internet for
+- find the answer online
+- google it for me
+- search web results
+- look this up online
+- do a quick web search
+- search for latest news
+- find information on google
+- look up on the internet
+- search online please
+- can you search online
+- please find this online
+- search the web for info
+- look for answers online
+- find this topic online
+- google the answer
+- search net for this
+- look it up on the web
+- do web search for
+- find online results
+- search for this subject
+- search the web for quantum computing
+- search the web for photosynthesis
+- search for cheap laptops
+- search Ishowspeed on youtube
+- extract information about the invention of computers
+- search for kryptonite on the web
+- open my browser and search how to use github
+- find the best text editor for all languages
+- search what is superman scared of
+- search about Avengers doomsday
+- find out all the movies I need to watch before avengers doomsday
+- search about pornography
+- browse the web for electric cars
+- search machine learning on youtube
+- browse the web for the food chain
+- open my browser and search lebron james
+- check the internet for solar panels
+- find information about digital marketing
+- search github for meditation techniques
+- search for volcanoes
+- search time management on youtube
+- search for electric cars
+- google the human immune system
+- check the internet for machine learning
+- look up web development
+- find out about the python programming language
+- find information about mechanical keyboards
+- search online for albert einstein
+- search what is chess strategy
+- look up earthquakes
+- open my browser and search the theory of relativity
+- extract information about self driving cars
+- browse the web for string theory
+- look up how vaccines work
+- search github for electric cars
+- open my browser and search electric cars
+- check the internet for the james webb telescope
+- search github for the best gaming laptops
+- search youtube for the iphone 16
+- check the internet for the human immune system
+- search github for albert einstein
+- search for dark matter
+- search about climate change
+- look up deep sea creatures
+- look up the ios app store
+- look up the best programming languages to learn
+- google the best gaming laptops
+- search youtube for ancient egypt
+- check the internet for meditation techniques
+- look up mechanical keyboards
+- check the internet for great white sharks
+- google the great wall of china
+- search for the best programming languages to learn
+- search github for photosynthesis in plants
+- extract information about samsung galaxy phones
+- search about web development
+- find info on job interview tips
+- search github for the human immune system
+- search productivity tips on youtube
+- check the internet for learning a new language
+- search what is volcanoes
+- search youtube for mental health
+- check the internet for volcanoes
+- search the iphone 16 on youtube
+- find the best the python programming language
+- search online for hiking trails
+- look up bread recipe on the web
+- google the population of japan
+- find information on the web about cars
+- browse for cheap flights
+
+INTENT: OPEN_WEBSITE
+
+- open youtube
+- open google
+- launch youtube
+- go to youtube
+- open github
+- open instagram
+- take me to google
+- go to github
+- open the youtube website
+- visit google
+- open the website
+- go to the website
+- take me to youtube
+- launch google
+- open github.com
+- visit youtube
+- go to the google website
+- open a website
+- can you open youtube
+- please open github
+- take me to instagram
+- open the site
+- go to that website
+- visit the site
+- launch the website
+- open a web page
+- take me to the site
+- navigate to youtube
+- navigate to google
+- open the requested website
+- open reddit
+- go to twitter
+- visit facebook
+- open netflix
+- take me to amazon
+- go to wikipedia
+- open stackoverflow
+- navigate to github.com
+- open the youtube page
+- launch the google site
+- visit the website
+- open this site
+- go to the link
+- take me there
+- open the homepage
+- open twitter
+- go to x.com
+- visit reddit
+- open facebook
+- launch netflix
+- take me to wikipedia
+- go to amazon
+- open stack overflow
+- navigate to youtube.com
+- open google.com
+- visit the youtube site
+- go to the github page
+- open the instagram site
+- launch the reddit page
+- take me to facebook
+- go to netflix.com
+- open wikipedia.org
+- visit amazon.com
+- navigate to the website
+- open that website
+- go to this site
+- take me to the page
+- launch the site
+- open the web page
+- visit this website
+- go to the homepage
+- open youtube now
+- can you go to google
+- please visit github
+- take me to the website
+- open the requested site
+- navigate to the page
+- go to youtube please
+- open google for me
+- launch the youtube site
+- visit github.com
+- take me to stackoverflow
+- open the twitter page
+- go to facebook.com
+- visit the netflix site
+- open amazon website
+- navigate to wikipedia
+- open this web page
+- go to that site
+- take me to reddit
+- launch facebook
+- open the linked site
+- visit the linked page
+- go to the url
+- open the url
+- navigate there
+- take me to that page
+- open the page please
+- can you open the site
+- please go to the website
+- open the website reddit
+- visit wikipedia
+- navigate to github
+- visit the website netflix
+
+INTENT: REMINDER
+
+- remind me to drink water
+- set a reminder
+- remind me later
+- remind me in ten minutes
+- set a reminder for later
+- remind me about my homework
+- remind me to study
+- remind me at seven
+- remind me tomorrow
+- set a reminder for tomorrow
+- notify me in ten minutes
+- make a reminder
+- create a reminder
+- I need a reminder
+- can you remind me
+- please remind me
+- set a reminder for my task
+- remind me about this
+- remind me to call someone
+- remind me to finish my work
+- remind me after an hour
+- notify me later
+- set a notification for later
+- make a reminder for tonight
+- remind me this evening
+- remind me in an hour
+- set a reminder for studying
+- I don't want to forget this
+- make sure you remind me
+- schedule a reminder
+- set an alarm for later
+- remind me in 30 minutes
+- create a reminder for tomorrow morning
+- notify me at 5 pm
+- remind me to take a break
+- set a reminder in two hours
+- don't let me forget
+- schedule a notification
+- remind me tonight
+- set reminder for 8 o'clock
+- remind me in five minutes
+- set a reminder in 15 minutes
+- remind me at noon
+- create a reminder for later today
+- notify me in an hour
+- remind me to eat
+- set a reminder to call back
+- make a reminder for the meeting
+- remind me about the appointment
+- schedule a reminder for tomorrow
+- set a notification for tonight
+- remind me in 20 minutes
+- create a reminder at 6
+- notify me tomorrow morning
+- remind me to check email
+- set a reminder for the task
+- don't forget to remind me
+- make sure to notify me
+- schedule an alert
+- set an alert for later
+- remind me this afternoon
+- create a reminder in one hour
+- notify me in 45 minutes
+- remind me at 9 pm
+- set a reminder for bedtime
+- make a reminder to stretch
+- remind me to stand up
+- schedule a reminder for next hour
+- set a notification in 10 minutes
+- remind me about dinner
+- create a reminder for 7 o'clock
+- notify me later today
+- remind me in half an hour
+- set a reminder soon
+- make a reminder now
+- I need a reminder later
+- can you set a reminder
+- please create a reminder
+- remind me after 30 minutes
+- set a reminder for the evening
+- notify me this evening
+- remind me to drink more water
+- schedule a reminder for study time
+- set an alarm reminder
+- make a timed reminder
+- remind me at a specific time
+- create a future reminder
+- notify me at a later time
+- remind me before bed
+- set a reminder for morning
+- make a reminder for the afternoon
+- remind me in a few minutes
+- schedule reminder for later
+- set notification for tomorrow
+- remind me about my goals
+- create reminder for the deadline
+- notify me about the event
+- remind me to take medicine
+- set a reminder for the call
+- make sure I get reminded
+- don't let me miss this
+
+INTENT: GET_TIME
+
+- what time is it
+- tell me the time
+- what is the current time
+- can you tell me the time
+- give me the time
+- what's the time right now
+- what time is it now
+- tell me what time it is
+- check the time
+- show me the current time
+- do you know the time
+- what is the time right now
+- tell me the current time
+- can you check the time
+- I want to know the time
+- what time are we at
+- give me the current time
+- tell me the exact time
+- check what time it is
+- what's the time
+- what time do we have
+- tell me the clock
+- can you tell me what time it is
+- let me know the time
+- what is the clock saying
+- how late is it
+- what time are we in
+- check the clock
+- read me the time
+- tell me the time please
+- current time please
+- what's the time
+- time check
+- tell me the hour
+- what time is it exactly
+- show the time
+- read the clock
+- what's on the clock
+- what time is it currently
+- tell me the present time
+- give me the exact time
+- can you show the time
+- please tell me the time
+- I need the current time
+- what's the time at the moment
+- check current time
+- show me what time it is
+- tell me the time of day
+- what hour is it
+- give me time right now
+- read the current time
+- what's the time now
+- can you read the clock
+- please check the time
+- tell me how late it is
+- what time do we have now
+- show current time
+- let me know current time
+- what is the present time
+- tell me clock time
+- check the current hour
+- give me the hour
+- what's the exact time
+- can you give the time
+- please show the time
+- I want the time now
+- tell me time please
+- what time is showing
+- read me current time
+- check what the clock says
+- show me the clock
+- what's the time on the clock
+- tell me the time of day
+- give current time please
+- can you say the time
+- please read the time
+- what time are we currently at
+- tell me the time exactly
+- show me exact time
+- check the exact time
+- what's the time currently
+- give me time please
+- can you tell current time
+- please give the time
+- I need to know the time
+- tell me what the clock is
+- show the current hour
+- read the hour
+- what's the hour now
+- check the hour
+- tell me present time
+- give exact current time
+- can you check current time
+- please tell current time
+- what time is displayed
+- show me time now
+- read current clock
+- tell the time right now
+- what's showing on the clock
+- give me the clock time
+
+INTENT: CHAT
+
+- how are you
+- hello
+- hi nova
+- hey nova
+- good morning
+- good evening
+- what's up
+- how is your day
+- are you there
+- can we talk
+- talk to me
+- say something
+- tell me a joke
+- make me laugh
+- tell me something funny
+- who are you
+- what can you do
+- what is your name
+- nice to meet you
+- thanks nova
+- thank you
+- you're helpful
+- are you awake
+- hey there
+- hello nova
+- tell me something interesting
+- let's chat
+- I want to talk
+- what are you doing
+- how's it going
+- hi
+- hey
+- good afternoon
+- good night
+- how's everything
+- what's new
+- talk to me for a bit
+- say hi
+- tell me a story
+- make a joke
+- who made you
+- what are your capabilities
+- introduce yourself
+- thanks a lot
+- appreciate it
+- are you listening
+- let's have a conversation
+- how do you feel
+- what's happening
+- hi there
+- hello there
+- hey you
+- good day
+- how are things
+- what's going on
+- can we chat
+- talk with me
+- say anything
+- tell a funny joke
+- make me smile
+- tell me a fun fact
+- who built you
+- what do you do
+- what's your name again
+- pleasure to meet you
+- thank you so much
+- you're really helpful
+- are you online
+- hey friend
+- hello friend
+- tell me a cool fact
+- let's talk for a while
+- I want to chat
+- what are you up to
+- how's your day going
+- hi nova how are you
+- hey what's up
+- good morning nova
+- good evening nova
+- how have you been
+- are you free to talk
+- can I talk to you
+- say something interesting
+- tell me another joke
+- make me laugh again
+- tell me something cool
+- who are you exactly
+- what else can you do
+- remind me your name
+- nice talking to you
+- thanks for the help
+- thank you kindly
+- you're awesome
+- are you still there
+- hey buddy
+- hello buddy
+- tell me something random
+- let's just chat
+- I feel like talking
+- what's on your mind
+- how's life treating you
+- show me how to use github from the web
+- what are the major disadvantages of arsenic pollution
+- Who is bill gates
+- why are microbes need to be seen by microscopes
+- working principle of microscopes
+- what is a telescope used for ?
+- who was ultron
+- Get information about micro controlers
+- which is better esp32 or the arduino uno
+- how can I make a million dollars by zero investment
+- why is world war two important
+- who is app development
+- i need info on the ottoman empire
+- pull up information on public speaking
+- what is world war two
+- can you search volcanoes
+- how does freelancing work
+- what is mars colonization
+- i need info on the moon landing
+- get information about genghis khan
+- tell me about deep sea creatures from the web
+- why is social media trends important
+- explain volcanoes to me
+- can you search the best gaming laptops
+- explain the mariana trench to me
+- how does quantum physics work
+- why is starting a small business important
+- how does wireless earbuds work
+- who is the roman empire
+- get information about the stock market
+- who is the amazon rainforest
+- get information about how vaccines work
+- i need info on job interview tips
+- can you search meditation techniques
+- tell me about great white sharks from the web
+- write an essay on water cycle
+- write a paragraph on the sun
+- write how the andromeda galaxy was invented
+- write down the data extracted from the web
+- write a report on black holes
+- create a document about the french revolution
+- write a short story about earthquakes
+- write a short story about the impact of technology on society
+- write a short story about nelson mandela
+- write a poem about healthy eating habits
+- compose a short essay on my favorite hobby
+- write down notes on overcoming failure
+- prepare a write up on time management
+- compose a message about my favorite hobby
+- write a speech about global warming
+- write down notes on the metaverse
+- write a paragraph on the solar system
+- compose a short essay on isaac newton
+- write an introduction about the importance of exercise
+- write a speech about the history of rome
+- write an introduction about leadership skills
+- write a report on virtual reality
+- prepare a write up on ancient egypt
+- write a description of the cold war
+- prepare a write up on plastic pollution
+- draft a report covering renewable energy
+- draft a report covering the big bang theory
+- write a short note about leadership skills
+- write an essay on nelson mandela
+- write a short story about global warming
+- write a speech about the cold war
+- compose a message about the water cycle
+- write down notes on the human brain
+- write an article on healthy eating habits
+- write a short story about albert einstein
+- write a summary of wildlife conservation
+- write an essay on the amazon rainforest
+- write down notes on the importance of sleep
+- create a document about virtual reality
+- write a speech about the importance of education
+- write a detailed explanation of data protection
+- put together a write up on plastic pollution
+- put together a write up on human rights
+- write down notes on albert einstein
+- write an introduction about photosynthesis
+- write a summary of mental health awareness
+- type up a summary on 5g technology
+- write a poem about endangered species
+- write a short story about the cold war
+- write a description of wildlife conservation
+- write a detailed explanation of the french revolution
+- prepare a write up on the history of the internet
+- write a paragraph on the metaverse
+- prepare a write up on the united nations
+- write down notes on the water cycle
+- write a poem about the human brain
+- write a detailed explanation of the cold war
+- write down notes on deforestation
+- write about the history of the stock market
+- write an article on nelson mandela
+- write an essay on self driving cars
+- prepare a write up on the importance of exercise
+- draft a paragraph explaining robotics
+- write an essay on ancient egypt
+- create a document about endangered species
+- write about the history of the water cycle
+- compose a short essay on the water cycle
+- prepare a write up on the importance of sleep
+- write a poem about the human digestive system
+- write a short note about the history of rome
+- write a description of black holes
+- type up a summary on plastic pollution
+- write a paragraph on the importance of education
+- write a speech about artificial intelligence
+- compose a message about the metaverse
+- type up a summary on the united nations
+- write a paragraph on the united nations
+- write a description of my dream vacation
+- draft an email about self driving cars
+- put together a write up on the history of the internet
+- write a short note about healthy eating habits
+- write a summary of online privacy
+- write an article on my favorite hobby
+- compose a message about entrepreneurship
+- draft a paragraph explaining volcanic eruptions
+- write a poem about the impact of technology on society
+- write a short story about the history of rome
+- put together a write up on data protection
+- create a document about 5g technology
+- write a paragraph on my dream vacation
+- write an introduction about the history of the internet
+- write an introduction about blockchain technology
+- draft a paragraph explaining the industrial revolution
+- write about the history of the cold war
+- draft an email about isaac newton
+- note down key facts about the renaissance
+- write an introduction about the united nations
+- draft a paragraph explaining the rise of social media
+- write a speech about climate change
+- write a description of the theory of evolution
+- you are doing great
+- what do you think about music
+- tell me about yourself
+- i feel like chatting
+- how does this work
+- what should I do today
+- give me some motivation
+
+INTENT: VOLUME_UP
+
+- turn the volume up
+- turn up the volume
+- volume up
+- raise the volume
+- increase the volume
+- make it louder
+- it's too quiet
+- louder please
+- crank the volume
+- pump up the volume
+- bring the volume up
+- sound is too low
+- turn it up
+- the audio is too quiet
+- boost the volume
+- louder
+- raise volume
+- turn up sound
+- volume higher
+- increase audio
+- turn up the sound
+- raise the audio level
+- the volume needs to go up
+- louder volume please
+- lift the volume
+- sound higher please
+
+INTENT: VOLUME_DOWN
+
+- turn the volume down
+- turn down the volume
+- volume down
+- lower the volume
+- decrease the volume
+- make it quieter
+- it's too loud
+- quieter please
+- bring the volume down
+- reduce the volume
+- the audio is too loud
+- turn it down
+- sound is too high
+- tone it down a little
+- quieter
+- lower volume
+- turn down sound
+- volume lower
+- decrease audio
+- turn down the sound
+- make the volume lower
+- decrease the sound level
+- the volume needs to go down
+- quiet it down
+- drop the volume
+- volume lower please
+- bring the sound down
+
+INTENT: SET_VOLUME
+
+- set volume to 50
+- set the volume to 30 percent
+- volume to 20
+- put the volume at 75
+- set volume at 100
+- set the audio level to 40 percent
+- make the volume 60 percent
+- set volume 10
+- volume 30 percent
+- put volume to 65
+- set the volume at 15
+- volume to 85 percent
+- set volume level to 55
+- put the sound at 25 percent
+- set audio to 70
+- set the volume level to 45
+- adjust volume to 60 percent
+- set my sound at 35
+- volume level 80
+- set the audio to 25 percent
+
+INTENT: MUTE
+
+- mute
+- mute the volume
+- mute the audio
+- silence the sound
+- mute my computer
+- mute it please
+- turn the sound off
+- mute the pc
+- silence please
+- mute the sound
+- mute please
+- silence the audio
+- cut the sound
+- mute the system audio
+- mute the system
+- silence it
+- sound off please
+- mute everything
+- put it on mute
+
+INTENT: UNMUTE
+
+- unmute
+- unmute the volume
+- unmute the audio
+- turn the sound back on
+- unmute my computer
+- give me sound again
+- unmute the pc
+- unmute the sound
+- take it off mute
+- restore the audio
+- unmute it
+- unmute the system
+- turn the mute off
+- sound on again
+- take the mute off please
+- turn my sound back on
+- unmute the machine
+
+INTENT: GET_VOLUME
+
+- what's the volume
+- what is the volume level
+- how loud is the volume
+- volume status
+- what's the current volume
+- check the volume
+- how high is the sound set
+- what's the volume set at
+- how loud is it set
+- check volume level
+- current volume please
+- what level is the sound
+
+INTENT: BRIGHTNESS_UP
+
+- turn the brightness up
+- brightness up
+- increase the brightness
+- raise the brightness
+- make the screen brighter
+- it's too dim
+- make it brighter
+- screen is too dark
+- turn up the screen brightness
+- brighten the screen
+- raise the screen brightness
+- turn brightness up
+- increase screen brightness
+- screen too dim
+- increase display brightness
+- brighten my display
+- turn the screen brightness up
+- brightness higher
+
+INTENT: BRIGHTNESS_DOWN
+
+- turn the brightness down
+- brightness down
+- decrease the brightness
+- lower the brightness
+- dim the screen
+- make the screen dimmer
+- it's too bright
+- make it dimmer
+- screen is too bright at night
+- reduce the screen brightness
+- darken the screen
+- reduce brightness
+- turn down the brightness
+- decrease the screen brightness
+- lower screen brightness
+- lower the screen brightness
+- reduce the display brightness
+- dim my screen
+- turn the display brightness down
+- brightness lower
+
+INTENT: SET_BRIGHTNESS
+
+- set brightness to 50
+- set the brightness to 80 percent
+- brightness to 30
+- set screen brightness to 70
+- put brightness at 40 percent
+- brightness 90
+- set the brightness to 65 percent
+- brightness to 45
+- set screen brightness at 25
+- put the brightness to 85
+- set brightness 100
+- set the brightness level to 75
+- adjust brightness to 55 percent
+- set my screen brightness at 35
+- brightness level 20
+- set display brightness to 90 percent
+
+INTENT: BATTERY_STATUS
+
+- what's my battery percentage
+- what is the battery level
+- how much battery do I have left
+- battery status
+- check the battery
+- how is the battery
+- battery life
+- is the battery charging
+- how much charge is left
+- battery percentage please
+- battery percentage
+- how much battery is left
+- what's the charge level
+- check my battery level
+- is my laptop charging
+- battery level check
+- what is my battery at
+- how is the battery doing
+- remaining battery power
+- battery charge status
+- power level remaining
+
+INTENT: WIFI_STATUS
+
+- wifi status
+- what's my wifi connection
+- am I connected to wifi
+- check the wifi
+- internet status
+- are we connected to the network
+- what network am I on
+- check the internet connection
+- wifi check please
+- what's the wifi status
+- which wifi network am I on
+- check my internet connection
+- am I on the internet
+- network status please
+
+INTENT: SCREENSHOT
+
+- take a screenshot
+- take a screenshot of the screen
+- screenshot
+- capture the screen
+- grab a screenshot
+- screenshot the display
+- take a snapshot of my screen
+- capture my screen please
+- screenshot the screen
+- take a screen capture
+- capture the display
+- take a screenshot now
+- snap my screen
+- take a screenshot of my display
+- capture the screen now
+- snap a screenshot
+- screenshot my desktop
+- grab the screen image
+
+INTENT: LOCK_SCREEN
+
+- lock my pc
+- lock the computer
+- lock my screen
+- lock the workstation
+- lock windows
+- lock it
+- lock my machine
+- secure my screen
+- lock the pc
+- lock my computer screen
+- lock windows now
+- lock the machine
+- lock my desktop
+
+INTENT: SHUTDOWN
+
+- shut down my pc
+- shut down the computer
+- turn off the computer
+- power off the pc
+- shut the machine down
+- shutdown
+- shut down my system
+- turn off my computer please
+- power down the machine
+- shut down the pc
+- turn off my pc
+- power off the computer
+- shut down windows
+- turn the machine off
+- shut down my computer now
+- power off my machine
+- turn off this pc
+- shut everything down
+- shutdown the system
+
+INTENT: RESTART
+
+- restart my pc
+- restart the computer
+- reboot the system
+- reboot my pc
+- restart the machine
+- restart
+- reboot please
+- restart my computer now
+- reboot the computer
+- restart the pc please
+- reboot my machine
+- restart windows
+- restart this computer
+
+INTENT: SLEEP_PC
+
+- put my pc to sleep
+- put the computer to sleep
+- sleep the pc
+- put my computer in sleep mode
+- go to sleep mode
+- make the computer sleep
+- sleep my machine
+- put my computer to sleep
+- sleep mode now
+- put the machine to sleep
+- send the pc to sleep
+- let the computer sleep
+- sleep the computer
+- put this machine in sleep mode
+- make my pc sleep now
+- enter sleep mode
+- nap time for the pc
+
+INTENT: PLAY_MUSIC
+
+- play music
+- play some music
+- play a song
+- resume the music
+- play the track
+- play
+- put on some music
+- start playing music
+- resume playback
+- play my music
+- start the music
+- play a track
+- resume my song
+- music on
+
+INTENT: PAUSE_MUSIC
+
+- pause
+- pause the music
+- pause the song
+- hold on a second
+- pause playback
+- pause it
+- stop the music playing
+- freeze the track
+- pause the track
+- hold the music
+- pause it please
+- stop playing for a moment
+
+INTENT: NEXT_TRACK
+
+- next track
+- next song
+- skip this track
+- skip to the next one
+- play the next song
+- skip
+- next
+- jump to the next track
+- next song please
+- skip this song
+- play the next track
+- advance to the next song
+- skip forward
+
+INTENT: PREV_TRACK
+
+- previous track
+- previous song
+- go back a track
+- play the last song again
+- previous
+- go back to the previous song
+- rewind to the last track
+- last track
+- go to the previous song
+- play the previous track
+- back one song
+- skip backward
+
+INTENT: GET_DATE
+
+- what's the date
+- what is today's date
+- what's the date today
+- tell me the date
+- date please
+- what day of the month is it
+- what's today's date
+- the date check
+- what is the date
+- what is the date today
+- tell me today's date
+- what's the current date
+- date check
+- what date is it
+
+INTENT: GET_DAY
+
+- what day is it
+- what day is today
+- what day are we on
+- tell me the day
+- what's the day today
+- is it monday today
+- which day of the week is it
+- what day is it today
+- which weekday is it
+- tell me today's day
+- what day of the week are we in
+- day check
+
+INTENT: CALCULATE
+
+- calculate 45 times 12
+- what's 25 plus 17
+- what is 90 minus 31
+- calculate 200 divided by 4
+- what's 15 percent of 800
+- what is 2 to the power of 8
+- calculate 144 square root
+- what's 5 squared
+- what is 2 cubed
+- compute 12 times 12
+- calculate 99 times 3
+- what's 6 divided by 2
+- what is 8 plus 7
+- calculate 3.5 plus 1.2
+- what's 20 percent of 150
+- calculate 13 times 7
+- what's 120 divided by 8
+- what is 45 plus 55
+- calculate 81 minus 19
+- what's 3 to the power of 4
+- what is 10 percent of 250
+- calculate 64 square root
+- what's 9 squared
+
+INTENT: CREATE_FOLDER
+
+- create a folder called Projects
+- make a new folder named Work
+- create a folder on the desktop called Notes
+- make a folder called Test
+- create a new folder named Archive
+- make me a folder called Budget
+- create a folder named photos backup
+- make a folder called learning on the desktop
+- create a new folder called invoices
+- make a folder named workouts
+- create a folder called receipts in documents
+- create a directory called projects
+- make a directory named media
+- new folder named downloads backup
+- create directory called games
+- make me a folder named papers
+
+INTENT: CREATE_FILE
+
+- create a text file called shopping
+- make a new file called todo
+- create a file named ideas
+- make a text file called journal
+- create a new text file named passwords
+- create a text file called groceries on the desktop
+- make a file named meeting notes
+- create a new file called budget
+- make a text file named reminders
+- create a file called password list
+- create a text file named notes today
+- make a file called plan
+- new text file named journal
+- create file named budget txt
+- make me a text file named shopping list
+
+INTENT: OPEN_FOLDER
+
+- open my downloads folder
+- open the documents folder
+- show my desktop folder
+- open downloads
+- open my documents
+- launch the desktop folder
+- show my notes folder
+- open the downloads folder
+- show my documents folder
+- open my desktop
+- launch my notes folder
+- open documents please
+
+INTENT: LIST_FOLDER
+
+- show files in downloads
+- what's in my documents
+- list the files on my desktop
+- what's in downloads
+- show what's in my notes folder
+- list my documents
+- show my downloads files
+- what files are in documents
+- list files on desktop
+- what's inside my notes
+- show the files in downloads
+
+INTENT: FIND_FILES
+
+- find my python files in documents
+- find report files in documents
+- search my downloads for invoices
+- find my resume in documents
+- find python files
+- search documents for project files
+
+INTENT: RENAME_FILE
+
+- rename draft.txt to final.txt
+- rename old notes to archive
+- rename project draft to project final in documents
+- rename my file essay to essay v2
+- rename temp to temp backup
+- rename note.txt to ideas.txt
+- rename my file draft to submission
+- rename chart to final chart
+- rename photo1 to vacation photo
+
+INTENT: MOVE_FILE
+
+- move report.docx to documents
+- move screenshot to downloads
+- move my file notes to documents
+- move invoice to documents folder
+- move homework.txt to documents
+- move my spreadsheet to documents
+- move the pdf to downloads
+- move presentation file to documents
+
+INTENT: DELETE_FILE
+
+- delete the file junk.txt
+- remove old notes
+- delete folder temp stuff on the desktop
+- delete test file
+- remove the file draft in documents
+- delete old draft from the desktop
+- remove temp file from downloads
+- delete the notes file
+- delete screenshot from the desktop
+- remove backup folder
+
+INTENT: LIST_TASKS
+
+- what tasks do I have
+- show my tasks
+- list my to-dos
+- what's pending on my list
+- which tasks are pending
+- show my pending tasks
+- what's on my task list
+- show pending tasks
+- list my tasks
+- what to-dos are pending
+- check my task list
+
+INTENT: LIST_REMINDERS
+
+- what reminders do I have
+- list my reminders
+- show reminders
+- which reminders are set
+- any reminders pending
+- what reminders are set
+- do I have any reminders
+- show my active reminders
+- what have you reminded me about
+- list pending reminders
+- any reminders coming up
+

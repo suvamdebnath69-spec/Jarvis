@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOVA — Beast Mode</title>
+
+    <link rel="stylesheet" href="beast1.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND
+    ========================================== -->
+
+    <div class="background-grid"></div>
+
+    <div class="scanlines"></div>
+
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+
+    <!-- =========================================
+         TOP HEADER
+    ========================================== -->
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="brand-name">
+                NOVA
+            </div>
+
+            <div class="brand-subtitle">
+                ARTIFICIAL INTELLIGENCE
+            </div>
+
+        </div>
+
+
+        <div class="beast-badge">
+
+            <span class="badge-dot"></span>
+
+            BEAST MODE
+
+        </div>
+
+
+        <div class="system-time">
+
+            <span id="time">00:00:00</span>
+
+            <small>LOCAL SYSTEM</small>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         LEFT STATUS PANEL
+    ========================================== -->
+
+    <aside class="left-panel">
+
+        <div class="panel-label">
+            SYSTEM
+        </div>
+
+
+        <div class="status-card">
+
+            <div class="status-top">
+
+                <span class="status-dot"></span>
+
+                <div>
+                    <strong id="systemStatus">
+                        ACTIVE
+                    </strong>
+
+                    <small id="systemDescription">
+                        NOVA systems operational
+                    </small>
+                </div>
+
+            </div>
+
+
+            <div class="status-line"></div>
+
+
+            <div class="system-item">
+
+                <span>CORE</span>
+
+                <strong>ONLINE</strong>
+
+            </div>
+
+
+            <div class="system-item">
+
+                <span>NEURAL ENGINE</span>
+
+                <strong>READY</strong>
+
+            </div>
+
+
+            <div class="system-item">
+
+                <span>VOICE</span>
+
+                <strong>STANDBY</strong>
+
+            </div>
+
+
+            <div class="system-item">
+
+                <span>MEMORY</span>
+
+                <strong>CONNECTED</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- POWER -->
+
+        <div class="power-card">
+
+            <div class="panel-label">
+                POWER
+            </div>
+
+            <div class="power-value">
+                <span id="powerValue">87</span>%
+            </div>
+
+            <div class="power-bar">
+
+                <div
+                    id="powerBar"
+                    class="power-fill">
+                </div>
+
+            </div>
+
+            <small>
+                NEURAL CAPACITY
+            </small>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================================
+         MAIN CORE
+    ========================================== -->
+
+    <main class="core-area">
+
+
+        <!-- Outer rotating rings -->
+
+        <div class="core-ring ring-a"></div>
+
+        <div class="core-ring ring-b"></div>
+
+        <div class="core-ring ring-c"></div>
+
+
+        <!-- Radar -->
+
+        <div class="radar">
+
+            <div class="radar-line"></div>
+
+        </div>
+
+
+        <!-- Neural Globe -->
+
+        <div class="neural-globe">
+
+            <!-- globe lines -->
+
+            <div class="globe-line g1"></div>
+            <div class="globe-line g2"></div>
+            <div class="globe-line g3"></div>
+            <div class="globe-line g4"></div>
+
+            <div class="globe-lat l1"></div>
+            <div class="globe-lat l2"></div>
+            <div class="globe-lat l3"></div>
+
+
+            <!-- Neural Nodes -->
+
+            <div class="node node1"></div>
+            <div class="node node2"></div>
+            <div class="node node3"></div>
+            <div class="node node4"></div>
+            <div class="node node5"></div>
+            <div class="node node6"></div>
+            <div class="node node7"></div>
+            <div class="node node8"></div>
+            <div class="node node9"></div>
+            <div class="node node10"></div>
+            <div class="node node11"></div>
+            <div class="node node12"></div>
+            <div class="node node13"></div>
+            <div class="node node14"></div>
+            <div class="node node15"></div>
+            <div class="node node16"></div>
+            <div class="node node17"></div>
+            <div class="node node18"></div>
+
+
+            <!-- Connections -->
+
+            <div class="connection c1"></div>
+            <div class="connection c2"></div>
+            <div class="connection c3"></div>
+            <div class="connection c4"></div>
+            <div class="connection c5"></div>
+            <div class="connection c6"></div>
+            <div class="connection c7"></div>
+            <div class="connection c8"></div>
+            <div class="connection c9"></div>
+            <div class="connection c10"></div>
+            <div class="connection c11"></div>
+            <div class="connection c12"></div>
+
+
+            <!-- CORE -->
+
+            <div class="nova-core">
+
+                <div class="core-pulse"></div>
+
+                <span>NOVA</span>
+
+                <small>ONLINE</small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Core information -->
+
+        <div class="core-status">
+
+            <div class="core-title">
+                NEURAL CORE
+            </div>
+
+            <div class="core-state">
+                <span></span>
+                PROCESSING READY
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================
+         RIGHT TASK PANEL
+    ========================================== -->
+
+    <aside class="right-panel">
+
+        <div class="panel-label">
+            CURRENT OPERATIONS
+        </div>
+
+
+        <div class="operations-card">
+
+            <div class="operation-header">
+
+                <span>LIVE TASKS</span>
+
+                <span
+                    id="taskCount"
+                    class="task-count">
+                    0
+                </span>
+
+            </div>
+
+
+            <div
+                id="taskList"
+                class="task-list">
+
+                <div class="idle-state">
+
+                    <div class="idle-icon">
+                        //
+                    </div>
+
+                    <strong>
+                        IDLE
+                    </strong>
+
+                    <small>
+                        No active operations
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Activity log -->
+
+        <div class="activity-card">
+
+            <div class="operation-header">
+
+                <span>ACTIVITY</span>
+
+                <span class="live-label">
+                    LIVE
+                </span>
+
+            </div>
+
+
+            <div
+                id="activityLog"
+                class="activity-log">
+
+                <div>
+                    <span>22:31:04</span>
+                    SYSTEM INITIALIZED
+                </div>
+
+                <div>
+                    <span>22:31:05</span>
+                    NEURAL CORE ONLINE
+                </div>
+
+                <div>
+                    <span>22:31:06</span>
+                    WAITING FOR COMMAND
+                </div>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================================
+         COMMAND BAR
+    ========================================== -->
+
+    <div class="command-area">
+
+        <div class="command-prefix">
+            <span>></span>
+        </div>
+
+
+        <input
+            id="commandInput"
+            type="text"
+            placeholder="Command NOVA..."
+            autocomplete="off"
+        >
+
+
+        <div class="command-status">
+            READY
+        </div>
+
+
+        <button
+            id="sendCommand"
+            class="command-button">
+
+            EXECUTE
+
+        </button>
+
+    </div>
+
+
+    <!-- =========================================
+         BOTTOM STATUS
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div>
+            NOVA CORE v1.0
+        </div>
+
+        <div>
+            <span class="footer-dot"></span>
+            ALL SYSTEMS NOMINAL
+        </div>
+
+        <div>
+            ENCRYPTED SESSION
+        </div>
+
+    </footer>
+
+
+    <script src="beast2.js"></script>
+
+</body>
+
+</html>

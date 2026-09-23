@@ -1,0 +1,24 @@
+# NOVA dependencies — all free/open-source, fully local.
+# Core (required)
+numpy>=1.24
+requests>=2.28
+psutil>=5.9
+flask>=2.3
+pyttsx3>=2.90          # TTS voice
+SpeechRecognition>=3.10  # STT
+pyautogui>=0.9.54      # screenshots, clicks, typing
+PyAudio>=0.2.13        # microphone access
+pywin32>=306           # SendKeys (tab/scroll control), window focus
+
+# System control (recommended — features degrade gracefully without them)
+pycaw>=20240210        # volume control (Windows Core Audio)
+comtypes>=1.2          # required by pycaw
+screen-brightness-control>=0.22  # brightness control
+
+# Documents & research (optional)
+beautifulsoup4>=4.12   # web page text extraction (research)
+python-docx>=1.1       # .docx documents
+fpdf2>=2.7             # PDF export
+
+# PC control / Beast Mode (optional)
+pywinauto>=0.6.8       # UI Automation (Instagram DM button finding)

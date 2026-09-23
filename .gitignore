@@ -1,22 +1,16 @@
-# Secrets - NEVER commit
-.env
-
-# Logs
-*.log
-
-# Python
+# Runtime artifacts
+logs/
 __pycache__/
 *.pyc
-*.pyo
+*.log
 
-# Ollama partial downloads (large blobs)
-*.partial
-*.partial-*
+# Stray debug dumps in project root
+logsollama.log
+logsollama_tags.json
+logsqwen_test.json
 
-# Windows
-Thumbs.db
-Desktop.ini
+# Codebuff workspace metadata
+.freebuff/
 
-# IDE
-.vscode/
-.idea/
+# Edge window profile
+logs/nova_window_profile/

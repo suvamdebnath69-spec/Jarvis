@@ -1,0 +1,4088 @@
+INTENT: OPEN_APP
+
+- open chrome
+- launch chrome
+- start chrome
+- can you open chrome
+- please open my browser
+- get chrome running
+- I need chrome open
+- start the browser for me
+- open VS Code
+- launch vscode
+- start spotify
+- open spotify please
+- can you start discord
+- launch discord for me
+- open notepad
+- start calculator
+- open the calculator
+- launch file explorer
+- open my file explorer
+- start microsoft word
+- open word for me
+- launch the terminal
+- open powershell
+- start the terminal
+- can you open discord
+- I want to use spotify
+- get vscode running
+- open the app
+- start an application
+- launch the program
+- fire up chrome
+- boot up vscode
+- open chrome for me
+- start up discord
+- launch the calculator app
+- open microsoft edge
+- start notepad++
+- get word open
+- open terminal please
+- launch powershell for me
+- start file explorer
+- open the music app
+- can you start chrome
+- bring up vscode
+- open spotify now
+- launch discord app
+- start the browser
+- open any browser
+- get the calculator running
+- open word document app
+- start command prompt
+- launch explorer
+- open the code editor
+- fire up the terminal
+- open firefox
+- launch edge
+- start opera
+- open brave
+- get chrome started
+- open visual studio code
+- launch code
+- start the code editor
+- open discord please
+- launch the chat app
+- start music player
+- open spotify app
+- get discord running
+- open notepad for me
+- launch the calculator
+- start windows explorer
+- open my documents folder
+- launch word
+- open microsoft word please
+- start the terminal app
+- open bash
+- launch cmd
+- start command line
+- open the browser
+- fire up the browser
+- boot chrome
+- open chrome browser
+- launch my browser
+- start vscode now
+- open the editor
+- get spotify open
+- launch the music app
+- open discord client
+- start the calculator program
+- open file manager
+- launch the file browser
+- open word processor
+- start ms word
+- open the shell
+- launch terminal emulator
+- open powershell window
+- start a new terminal
+- can you launch chrome
+- please start vscode
+- I need discord open
+- get the terminal running
+- open any code editor
+- launch the default browser
+- open the chrome app
+- launch the notepad application
+- open spotify program
+- start the discord app
+- run the calculator application
+- open my vscode editor
+
+INTENT: CLOSE_APP
+
+- close chrome
+- quit chrome
+- exit chrome
+- shut down chrome
+- close the browser
+- quit the browser
+- please close spotify
+- stop spotify
+- exit spotify
+- close discord
+- quit discord
+- shut discord
+- close VS Code
+- exit vscode
+- quit vscode
+- close notepad
+- exit notepad
+- close calculator
+- quit calculator
+- close file explorer
+- exit file explorer
+- close word
+- quit microsoft word
+- close the application
+- shut the app
+- get rid of this application
+- stop the program
+- quit the program
+- close the current app
+- exit the current application
+- kill chrome
+- force quit discord
+- shut down vscode
+- close spotify completely
+- end the browser
+- terminate notepad
+- close the calculator window
+- quit file explorer
+- stop microsoft word
+- exit the terminal
+- close powershell
+- shut the current program
+- get rid of discord
+- close this app please
+- stop running chrome
+- quit the music app
+- exit the code editor
+- close everything in this app
+- kill the process
+- shut down the application
+- close firefox
+- quit edge
+- exit opera
+- shut brave
+- close the browser window
+- force close chrome
+- kill the browser
+- quit vscode completely
+- close visual studio code
+- stop the code editor
+- exit discord client
+- close the chat app
+- quit the music player
+- stop spotify app
+- close notepad window
+- exit the calculator
+- shut the file manager
+- close windows explorer
+- quit word processor
+- exit ms word
+- close the shell
+- quit terminal emulator
+- exit cmd
+- close command prompt
+- kill the terminal
+- force quit the app
+- shut this program down
+- close running application
+- stop this software
+- end the current process
+- quit this window
+- close the active app
+- terminate the browser
+- kill vscode
+- force stop discord
+- exit the music app
+- close file browser
+- quit the editor
+- shut down powershell
+- close all instances of chrome
+- stop the calculator program
+- exit the file explorer
+- close microsoft edge
+- quit the default browser
+- kill this application
+- please quit chrome
+- can you close vscode
+- I want to close discord
+- get rid of the terminal
+- shut the app down
+- close the chrome app
+- quit the notepad application
+- exit the spotify program
+- kill the discord app process
+- close spotify
+
+INTENT: CLOSE_TAB
+
+- close this tab
+- close the current tab
+- shut this tab
+- exit this tab
+- get rid of this tab
+- please close this tab
+- can you close the tab
+- close the page I'm on
+- shut the current page
+- close this browser tab
+- remove this tab
+- get this tab closed
+- close the active tab
+- exit the active tab
+- I don't need this tab
+- get rid of the current tab
+- close the tab please
+- can you shut this page
+- close the page
+- shut this browser tab
+- close the tab I'm using
+- exit this browser tab
+- please shut the current tab
+- close the open tab
+- remove the current tab
+- I want to close this tab
+- close whichever tab is active
+- shut the active tab
+- close the current browser page
+- get rid of the open tab
+- close tab
+- kill this tab
+- discard this tab
+- close the focused tab
+- shut the tab I'm looking at
+- remove the page
+- close current browser tab
+- exit the page
+- get this page closed
+- close the one I'm on
+- shut tab now
+- close active browser tab
+- I want this tab gone
+- remove the open page
+- close this one
+- close the selected tab
+- exit current tab
+- shut the tab
+- get rid of current page
+- close browser tab
+- remove active tab
+- kill the current tab
+- discard this page
+- close the tab in focus
+- shut this open tab
+- exit the focused tab
+- close whatever tab is open
+- get this browser tab closed
+- remove the page I'm on
+- close the tab right now
+- shut the page I'm viewing
+- exit this open page
+- close the browser page
+- kill active tab
+- discard current browser tab
+- close the one in front
+- remove this browser page
+- shut the tab I'm using
+- get rid of the focused tab
+- close this active page
+- exit the tab please
+- can you remove this tab
+- please discard the tab
+- I don't need the current tab
+- close the visible tab
+- shut the tab that's open
+- remove the active page
+- kill this browser tab
+- close tab I'm looking at
+- exit the open browser tab
+- get this one closed
+- discard the current page
+- close whichever is active
+- shut the focused page
+- remove this open tab
+- close the tab completely
+- exit this page now
+- kill the open tab
+- get rid of the page
+- close current page please
+- shut browser tab
+- remove the tab I'm on
+- close the active page
+- exit active browser tab
+- discard focused tab
+- close this browser page
+- shut the one that's active
+- get the tab closed
+- please close active tab
+- I want the current tab closed
+- nova, close this tab
+- can you close this tab
+- could you close this tab
+- hey nova, close this tab
+- please close the current tab
+
+INTENT: OPEN_TAB
+
+- open a new tab
+- create a new tab
+- start a new tab
+- give me a new tab
+- can you open another tab
+- open another browser tab
+- make another tab
+- add a new tab
+- please open a new tab
+- launch a fresh tab
+- start another tab
+- I need a new tab
+- get me a new browser tab
+- open one more tab
+- make a fresh tab
+- create another browser tab
+- can you make a new tab
+- please add another tab
+- open another page in a tab
+- I want another tab
+- give me another browser tab
+- open a blank tab
+- create a blank tab
+- start a blank browser tab
+- add one more tab
+- make a new browser tab
+- open a fresh browser tab
+- I need another browser tab
+- get a new tab open
+- create a fresh tab
+- new tab please
+- open new tab
+- spawn a new tab
+- give me a blank page
+- add a tab
+- open empty tab
+- create one more tab
+- start a new browser page
+- I want a fresh tab
+- open another blank tab
+- make a new page
+- launch new tab
+- get me another tab
+- open tab
+- open a new browser tab
+- create a new browser page
+- start a fresh tab
+- give me one more tab
+- can you add a tab
+- open yet another tab
+- make a blank browser tab
+- create an empty tab
+- start another browser tab
+- I need a blank tab
+- get a fresh tab open
+- open a new empty tab
+- launch another tab
+- add a blank tab
+- make one more browser tab
+- create a new empty page
+- open a tab for me
+- start a blank page
+- give me a new empty tab
+- can you open a blank tab
+- please create a new tab
+- I want a new browser page
+- open one additional tab
+- make another blank tab
+- start a new empty tab
+- get me a blank browser tab
+- open fresh empty tab
+- create yet another tab
+- launch a blank tab
+- add a new browser page
+- make a new empty tab
+- open another empty page
+- start one more tab
+- give me another blank tab
+- can you spawn a tab
+- please open a blank page
+- I need one more browser tab
+- get a new empty tab
+- open a brand new tab
+- create a brand new tab
+- start a brand new browser tab
+- add a fresh empty tab
+- make a brand new page
+- open an additional tab
+- launch a new empty tab
+- get me a brand new tab
+- open tab now
+- create tab please
+- start new browser tab
+- give me empty tab
+- can you make blank tab
+- please add empty tab
+- I want blank browser tab
+- open another new tab
+- make one additional tab
+- create one additional tab
+- nova, open a new tab
+- can you open a new tab
+- could you open a new tab
+- hey nova, open a new tab
+- new tab
+
+INTENT: SCROLL
+
+- scroll down
+- scroll up
+- move down
+- move up
+- go down the page
+- go up the page
+- scroll the page
+- scroll down a little
+- scroll up a little
+- move the page down
+- move the page up
+- take me lower on the page
+- take me higher on the page
+- go to the bottom
+- go to the top
+- move toward the bottom
+- move toward the top
+- scroll to the bottom
+- scroll to the top
+- can you scroll down
+- please scroll up
+- scroll down a bit
+- scroll up a bit
+- move down the screen
+- move up the screen
+- go farther down
+- go farther up
+- take me down
+- take me up
+- scroll the screen
+- page down
+- page up
+- scroll a little more
+- keep scrolling down
+- scroll further up
+- jump to the bottom
+- jump to the top
+- move lower
+- move higher
+- scroll the content down
+- scroll the content up
+- go down some more
+- go up some more
+- scroll halfway
+- bring me to the bottom
+- bring me to the top
+- scroll down more
+- scroll up more
+- move a bit lower
+- move a bit higher
+- go further down the page
+- go further up the page
+- scroll down the screen
+- scroll up the screen
+- take me to the bottom
+- take me to the top
+- move down a little
+- move up a little
+- scroll down please
+- scroll up please
+- can you move down
+- can you move up
+- go down a bit
+- go up a bit
+- scroll the page down
+- scroll the page up
+- move toward bottom
+- move toward top
+- keep going down
+- keep going up
+- scroll more down
+- scroll more up
+- jump down
+- jump up
+- lower the page
+- raise the page
+- go to page bottom
+- go to page top
+- scroll all the way down
+- scroll all the way up
+- move to the bottom
+- move to the top
+- take me lower
+- take me higher
+- scroll down slowly
+- scroll up slowly
+- go down the screen
+- go up the screen
+- page further down
+- page further up
+- scroll content lower
+- scroll content higher
+- move the view down
+- move the view up
+- bring me lower
+- bring me higher
+- scroll to bottom please
+- scroll to top please
+- can you go down
+- can you go up
+- please move down
+- please move up
+- scroll down the page
+- scroll the window
+- page down please
+- scroll further down
+
+INTENT: SEARCH_WEB
+
+- search the web for python
+- search for python tutorials
+- look up python tutorials
+- find information about python
+- search online for this
+- look this up on the internet
+- can you search the web
+- search the internet
+- find this online
+- look for this online
+- search for the answer
+- find information online
+- google this
+- search google for python
+- look up the weather
+- search for today's weather
+- find the latest information
+- search the internet for this topic
+- can you look this up
+- please search for it
+- find this on the web
+- search online
+- do a web search
+- look this topic up
+- search for more information
+- find some information about this
+- search the web please
+- look for results online
+- search for that
+- find it on the internet
+- google python
+- search the web
+- look it up
+- web search for this
+- find results for
+- search online about
+- do a google search
+- look up online
+- search the net
+- find me information on
+- google search
+- search the web for answers
+- look this up for me
+- search google
+- search for python
+- look up python
+- find python info
+- search the web about
+- google this topic
+- look this up on google
+- search online for answers
+- find info on the internet
+- do an internet search
+- search the web now
+- look for this on the web
+- find this information online
+- search for current info
+- google the topic
+- look up this subject
+- search the internet please
+- can you google this
+- please look this up
+- find results online
+- search web for me
+- look online for this
+- do a search for
+- search for information on
+- find online information
+- google search this
+- look this subject up
+- search the net for
+- find me results
+- web search please
+- search google online
+- look up on the web
+- find this on google
+- search for that online
+- can you find this online
+- please search the web
+- look for more info
+- search the internet for
+- find the answer online
+- google it for me
+- search web results
+- look this up online
+- do a quick web search
+- search for latest news
+- find information on google
+- look up on the internet
+- search online please
+- can you search online
+- please find this online
+- search the web for info
+- look for answers online
+- find this topic online
+- google the answer
+- search net for this
+- look it up on the web
+- do web search for
+- find online results
+- search for this subject
+- search the web for quantum computing
+- search the web for photosynthesis
+- search for cheap laptops
+- search Ishowspeed on youtube
+- extract information about the invention of computers
+- search for kryptonite on the web
+- open my browser and search how to use github
+- find the best text editor for all languages
+- search what is superman scared of
+- search about Avengers doomsday
+- find out all the movies I need to watch before avengers doomsday
+- search about pornography
+- browse the web for electric cars
+- search machine learning on youtube
+- browse the web for the food chain
+- open my browser and search lebron james
+- check the internet for solar panels
+- find information about digital marketing
+- search github for meditation techniques
+- search for volcanoes
+- search time management on youtube
+- search for electric cars
+- google the human immune system
+- check the internet for machine learning
+- look up web development
+- find out about the python programming language
+- find information about mechanical keyboards
+- search online for albert einstein
+- search what is chess strategy
+- look up earthquakes
+- open my browser and search the theory of relativity
+- extract information about self driving cars
+- browse the web for string theory
+- look up how vaccines work
+- search github for electric cars
+- open my browser and search electric cars
+- check the internet for the james webb telescope
+- search github for the best gaming laptops
+- search youtube for the iphone 16
+- check the internet for the human immune system
+- search github for albert einstein
+- search for dark matter
+- search about climate change
+- look up deep sea creatures
+- look up the ios app store
+- look up the best programming languages to learn
+- google the best gaming laptops
+- search youtube for ancient egypt
+- check the internet for meditation techniques
+- look up mechanical keyboards
+- check the internet for great white sharks
+- google the great wall of china
+- search for the best programming languages to learn
+- search github for photosynthesis in plants
+- extract information about samsung galaxy phones
+- search about web development
+- find info on job interview tips
+- search github for the human immune system
+- search productivity tips on youtube
+- check the internet for learning a new language
+- search what is volcanoes
+- search youtube for mental health
+- check the internet for volcanoes
+- search the iphone 16 on youtube
+- find the best the python programming language
+- search online for hiking trails
+- look up bread recipe on the web
+- google the population of japan
+- find information on the web about cars
+- browse for cheap flights
+
+INTENT: OPEN_WEBSITE
+
+- open youtube
+- open google
+- launch youtube
+- go to youtube
+- open github
+- open instagram
+- take me to google
+- go to github
+- open the youtube website
+- visit google
+- open the website
+- go to the website
+- take me to youtube
+- launch google
+- open github.com
+- visit youtube
+- go to the google website
+- open a website
+- can you open youtube
+- please open github
+- take me to instagram
+- open the site
+- go to that website
+- visit the site
+- launch the website
+- open a web page
+- take me to the site
+- navigate to youtube
+- navigate to google
+- open the requested website
+- open reddit
+- go to twitter
+- visit facebook
+- open netflix
+- take me to amazon
+- go to wikipedia
+- open stackoverflow
+- navigate to github.com
+- open the youtube page
+- launch the google site
+- visit the website
+- open this site
+- go to the link
+- take me there
+- open the homepage
+- open twitter
+- go to x.com
+- visit reddit
+- open facebook
+- launch netflix
+- take me to wikipedia
+- go to amazon
+- open stack overflow
+- navigate to youtube.com
+- open google.com
+- visit the youtube site
+- go to the github page
+- open the instagram site
+- launch the reddit page
+- take me to facebook
+- go to netflix.com
+- open wikipedia.org
+- visit amazon.com
+- navigate to the website
+- open that website
+- go to this site
+- take me to the page
+- launch the site
+- open the web page
+- visit this website
+- go to the homepage
+- open youtube now
+- can you go to google
+- please visit github
+- take me to the website
+- open the requested site
+- navigate to the page
+- go to youtube please
+- open google for me
+- launch the youtube site
+- visit github.com
+- take me to stackoverflow
+- open the twitter page
+- go to facebook.com
+- visit the netflix site
+- open amazon website
+- navigate to wikipedia
+- open this web page
+- go to that site
+- take me to reddit
+- launch facebook
+- open the linked site
+- visit the linked page
+- go to the url
+- open the url
+- navigate there
+- take me to that page
+- open the page please
+- can you open the site
+- please go to the website
+- open the website reddit
+- visit wikipedia
+- navigate to github
+- visit the website netflix
+- open wikipedia
+
+INTENT: REMINDER
+
+- remind me to drink water
+- set a reminder
+- remind me later
+- remind me in ten minutes
+- set a reminder for later
+- remind me about my homework
+- remind me to study
+- remind me at seven
+- remind me tomorrow
+- set a reminder for tomorrow
+- notify me in ten minutes
+- make a reminder
+- create a reminder
+- I need a reminder
+- can you remind me
+- please remind me
+- set a reminder for my task
+- remind me about this
+- remind me to call someone
+- remind me to finish my work
+- remind me after an hour
+- notify me later
+- set a notification for later
+- make a reminder for tonight
+- remind me this evening
+- remind me in an hour
+- set a reminder for studying
+- I don't want to forget this
+- make sure you remind me
+- schedule a reminder
+- set an alarm for later
+- remind me in 30 minutes
+- create a reminder for tomorrow morning
+- notify me at 5 pm
+- remind me to take a break
+- set a reminder in two hours
+- don't let me forget
+- schedule a notification
+- remind me tonight
+- set reminder for 8 o'clock
+- remind me in five minutes
+- set a reminder in 15 minutes
+- remind me at noon
+- create a reminder for later today
+- notify me in an hour
+- remind me to eat
+- set a reminder to call back
+- make a reminder for the meeting
+- remind me about the appointment
+- schedule a reminder for tomorrow
+- set a notification for tonight
+- remind me in 20 minutes
+- create a reminder at 6
+- notify me tomorrow morning
+- remind me to check email
+- set a reminder for the task
+- don't forget to remind me
+- make sure to notify me
+- schedule an alert
+- set an alert for later
+- remind me this afternoon
+- create a reminder in one hour
+- notify me in 45 minutes
+- remind me at 9 pm
+- set a reminder for bedtime
+- make a reminder to stretch
+- remind me to stand up
+- schedule a reminder for next hour
+- set a notification in 10 minutes
+- remind me about dinner
+- create a reminder for 7 o'clock
+- notify me later today
+- remind me in half an hour
+- set a reminder soon
+- make a reminder now
+- I need a reminder later
+- can you set a reminder
+- please create a reminder
+- remind me after 30 minutes
+- set a reminder for the evening
+- notify me this evening
+- remind me to drink more water
+- schedule a reminder for study time
+- set an alarm reminder
+- make a timed reminder
+- remind me at a specific time
+- create a future reminder
+- notify me at a later time
+- remind me before bed
+- set a reminder for morning
+- make a reminder for the afternoon
+- remind me in a few minutes
+- schedule reminder for later
+- set notification for tomorrow
+- remind me about my goals
+- create reminder for the deadline
+- notify me about the event
+- remind me to take medicine
+- set a reminder for the call
+- make sure I get reminded
+- don't let me miss this
+- remind me to drink water in 5 minutes
+- set a reminder to drink water in 5 minutes
+- remind me to drink water in 10 minutes
+- set a reminder to drink water in 10 minutes
+
+INTENT: GET_TIME
+
+- what time is it
+- tell me the time
+- what is the current time
+- can you tell me the time
+- give me the time
+- what's the time right now
+- what time is it now
+- tell me what time it is
+- check the time
+- show me the current time
+- do you know the time
+- what is the time right now
+- tell me the current time
+- can you check the time
+- I want to know the time
+- what time are we at
+- give me the current time
+- tell me the exact time
+- check what time it is
+- what's the time
+- what time do we have
+- tell me the clock
+- can you tell me what time it is
+- let me know the time
+- what is the clock saying
+- how late is it
+- what time are we in
+- check the clock
+- read me the time
+- tell me the time please
+- current time please
+- what's the time
+- time check
+- tell me the hour
+- what time is it exactly
+- show the time
+- read the clock
+- what's on the clock
+- what time is it currently
+- tell me the present time
+- give me the exact time
+- can you show the time
+- please tell me the time
+- I need the current time
+- what's the time at the moment
+- check current time
+- show me what time it is
+- tell me the time of day
+- what hour is it
+- give me time right now
+- read the current time
+- what's the time now
+- can you read the clock
+- please check the time
+- tell me how late it is
+- what time do we have now
+- show current time
+- let me know current time
+- what is the present time
+- tell me clock time
+- check the current hour
+- give me the hour
+- what's the exact time
+- can you give the time
+- please show the time
+- I want the time now
+- tell me time please
+- what time is showing
+- read me current time
+- check what the clock says
+- show me the clock
+- what's the time on the clock
+- tell me the time of day
+- give current time please
+- can you say the time
+- please read the time
+- what time are we currently at
+- tell me the time exactly
+- show me exact time
+- check the exact time
+- what's the time currently
+- give me time please
+- can you tell current time
+- please give the time
+- I need to know the time
+- tell me what the clock is
+- show the current hour
+- read the hour
+- what's the hour now
+- check the hour
+- tell me present time
+- give exact current time
+- can you check current time
+- please tell current time
+- what time is displayed
+- show me time now
+- read current clock
+- tell the time right now
+- what's showing on the clock
+- give me the clock time
+- please what time is it
+- nova, what time is it
+- can you what time is it
+- could you what time is it
+- hey nova, what time is it
+
+INTENT: CHAT
+
+- how are you
+- hello
+- hi nova
+- hey nova
+- good morning
+- good evening
+- what's up
+- how is your day
+- are you there
+- can we talk
+- talk to me
+- say something
+- tell me a joke
+- make me laugh
+- tell me something funny
+- who are you
+- what can you do
+- what is your name
+- nice to meet you
+- thanks nova
+- thank you
+- you're helpful
+- are you awake
+- hey there
+- hello nova
+- tell me something interesting
+- let's chat
+- I want to talk
+- what are you doing
+- how's it going
+- hi
+- hey
+- good afternoon
+- good night
+- how's everything
+- what's new
+- talk to me for a bit
+- say hi
+- tell me a story
+- make a joke
+- who made you
+- what are your capabilities
+- introduce yourself
+- thanks a lot
+- appreciate it
+- are you listening
+- let's have a conversation
+- how do you feel
+- what's happening
+- hi there
+- hello there
+- hey you
+- good day
+- how are things
+- what's going on
+- can we chat
+- talk with me
+- say anything
+- tell a funny joke
+- make me smile
+- tell me a fun fact
+- who built you
+- what do you do
+- what's your name again
+- pleasure to meet you
+- thank you so much
+- you're really helpful
+- are you online
+- hey friend
+- hello friend
+- tell me a cool fact
+- let's talk for a while
+- I want to chat
+- what are you up to
+- how's your day going
+- hi nova how are you
+- hey what's up
+- good morning nova
+- good evening nova
+- how have you been
+- are you free to talk
+- can I talk to you
+- say something interesting
+- tell me another joke
+- make me laugh again
+- tell me something cool
+- who are you exactly
+- what else can you do
+- remind me your name
+- nice talking to you
+- thanks for the help
+- thank you kindly
+- you're awesome
+- are you still there
+- hey buddy
+- hello buddy
+- tell me something random
+- let's just chat
+- I feel like talking
+- what's on your mind
+- how's life treating you
+- show me how to use github from the web
+- what are the major disadvantages of arsenic pollution
+- Who is bill gates
+- why are microbes need to be seen by microscopes
+- working principle of microscopes
+- what is a telescope used for ?
+- who was ultron
+- Get information about micro controlers
+- which is better esp32 or the arduino uno
+- how can I make a million dollars by zero investment
+- why is world war two important
+- who is app development
+- i need info on the ottoman empire
+- pull up information on public speaking
+- what is world war two
+- can you search volcanoes
+- how does freelancing work
+- what is mars colonization
+- i need info on the moon landing
+- get information about genghis khan
+- tell me about deep sea creatures from the web
+- why is social media trends important
+- explain volcanoes to me
+- can you search the best gaming laptops
+- explain the mariana trench to me
+- how does quantum physics work
+- why is starting a small business important
+- how does wireless earbuds work
+- who is the roman empire
+- get information about the stock market
+- who is the amazon rainforest
+- get information about how vaccines work
+- i need info on job interview tips
+- can you search meditation techniques
+- tell me about great white sharks from the web
+- write an essay on water cycle
+- write a paragraph on the sun
+- write how the andromeda galaxy was invented
+- write down the data extracted from the web
+- write a report on black holes
+- create a document about the french revolution
+- write a short story about earthquakes
+- write a short story about the impact of technology on society
+- write a short story about nelson mandela
+- write a poem about healthy eating habits
+- compose a short essay on my favorite hobby
+- write down notes on overcoming failure
+- prepare a write up on time management
+- compose a message about my favorite hobby
+- write a speech about global warming
+- write down notes on the metaverse
+- write a paragraph on the solar system
+- compose a short essay on isaac newton
+- write an introduction about the importance of exercise
+- write a speech about the history of rome
+- write an introduction about leadership skills
+- write a report on virtual reality
+- prepare a write up on ancient egypt
+- write a description of the cold war
+- prepare a write up on plastic pollution
+- draft a report covering renewable energy
+- draft a report covering the big bang theory
+- write a short note about leadership skills
+- write an essay on nelson mandela
+- write a short story about global warming
+- write a speech about the cold war
+- compose a message about the water cycle
+- write down notes on the human brain
+- write an article on healthy eating habits
+- write a short story about albert einstein
+- write a summary of wildlife conservation
+- write an essay on the amazon rainforest
+- write down notes on the importance of sleep
+- create a document about virtual reality
+- write a speech about the importance of education
+- write a detailed explanation of data protection
+- put together a write up on plastic pollution
+- put together a write up on human rights
+- write down notes on albert einstein
+- write an introduction about photosynthesis
+- write a summary of mental health awareness
+- type up a summary on 5g technology
+- write a poem about endangered species
+- write a short story about the cold war
+- write a description of wildlife conservation
+- write a detailed explanation of the french revolution
+- prepare a write up on the history of the internet
+- write a paragraph on the metaverse
+- prepare a write up on the united nations
+- write down notes on the water cycle
+- write a poem about the human brain
+- write a detailed explanation of the cold war
+- write down notes on deforestation
+- write about the history of the stock market
+- write an article on nelson mandela
+- write an essay on self driving cars
+- prepare a write up on the importance of exercise
+- draft a paragraph explaining robotics
+- write an essay on ancient egypt
+- create a document about endangered species
+- write about the history of the water cycle
+- compose a short essay on the water cycle
+- prepare a write up on the importance of sleep
+- write a poem about the human digestive system
+- write a short note about the history of rome
+- write a description of black holes
+- type up a summary on plastic pollution
+- write a paragraph on the importance of education
+- write a speech about artificial intelligence
+- compose a message about the metaverse
+- type up a summary on the united nations
+- write a paragraph on the united nations
+- write a description of my dream vacation
+- draft an email about self driving cars
+- put together a write up on the history of the internet
+- write a short note about healthy eating habits
+- write a summary of online privacy
+- write an article on my favorite hobby
+- compose a message about entrepreneurship
+- draft a paragraph explaining volcanic eruptions
+- write a poem about the impact of technology on society
+- write a short story about the history of rome
+- put together a write up on data protection
+- create a document about 5g technology
+- write a paragraph on my dream vacation
+- write an introduction about the history of the internet
+- write an introduction about blockchain technology
+- draft a paragraph explaining the industrial revolution
+- write about the history of the cold war
+- draft an email about isaac newton
+- note down key facts about the renaissance
+- write an introduction about the united nations
+- draft a paragraph explaining the rise of social media
+- write a speech about climate change
+- write a description of the theory of evolution
+- you are doing great
+- what do you think about music
+- tell me about yourself
+- i feel like chatting
+- how does this work
+- what should I do today
+- give me some motivation
+
+INTENT: VOLUME_UP
+
+- turn the volume up
+- turn up the volume
+- volume up
+- raise the volume
+- increase the volume
+- make it louder
+- it's too quiet
+- louder please
+- crank the volume
+- pump up the volume
+- bring the volume up
+- sound is too low
+- turn it up
+- the audio is too quiet
+- boost the volume
+- louder
+- raise volume
+- turn up sound
+- volume higher
+- increase audio
+- turn up the sound
+- raise the audio level
+- the volume needs to go up
+- louder volume please
+- lift the volume
+- sound higher please
+- please turn the volume up
+- nova, turn the volume up
+- can you turn the volume up
+- could you turn the volume up
+- hey nova, turn the volume up
+- please volume up
+- nova, volume up
+- can you volume up
+- could you volume up
+- hey nova, volume up
+- please raise the volume
+- nova, raise the volume
+- can you raise the volume
+- could you raise the volume
+- hey nova, raise the volume
+- please increase the volume
+- nova, increase the volume
+- can you increase the volume
+- could you increase the volume
+- hey nova, increase the volume
+- please make it louder
+- nova, make it louder
+- can you make it louder
+- could you make it louder
+- hey nova, make it louder
+- please it's too quiet
+- nova, it's too quiet
+- can you it's too quiet
+- could you it's too quiet
+- hey nova, it's too quiet
+- please louder please
+- nova, louder please
+- can you louder please
+- could you louder please
+- hey nova, louder please
+- please crank the volume
+- nova, crank the volume
+- can you crank the volume
+- could you crank the volume
+- hey nova, crank the volume
+- please pump up the volume
+- nova, pump up the volume
+- can you pump up the volume
+- could you pump up the volume
+- hey nova, pump up the volume
+- please bring the volume up
+- nova, bring the volume up
+- can you bring the volume up
+- could you bring the volume up
+- hey nova, bring the volume up
+- please sound is too low
+- nova, sound is too low
+- can you sound is too low
+- could you sound is too low
+- hey nova, sound is too low
+- please turn it up
+- nova, turn it up
+- can you turn it up
+- could you turn it up
+- hey nova, turn it up
+- please boost the volume
+- nova, boost the volume
+- can you boost the volume
+- could you boost the volume
+- hey nova, boost the volume
+- please turn up the sound
+- nova, turn up the sound
+- can you turn up the sound
+- could you turn up the sound
+- hey nova, turn up the sound
+- raise the audio
+- please raise the audio
+- nova, raise the audio
+- can you raise the audio
+- could you raise the audio
+- hey nova, raise the audio
+
+INTENT: VOLUME_DOWN
+
+- turn the volume down
+- turn down the volume
+- volume down
+- lower the volume
+- decrease the volume
+- make it quieter
+- it's too loud
+- quieter please
+- bring the volume down
+- reduce the volume
+- the audio is too loud
+- turn it down
+- sound is too high
+- tone it down a little
+- quieter
+- lower volume
+- turn down sound
+- volume lower
+- decrease audio
+- turn down the sound
+- make the volume lower
+- decrease the sound level
+- the volume needs to go down
+- quiet it down
+- drop the volume
+- volume lower please
+- bring the sound down
+- please turn the volume down
+- nova, turn the volume down
+- can you turn the volume down
+- could you turn the volume down
+- hey nova, turn the volume down
+- please volume down
+- nova, volume down
+- can you volume down
+- could you volume down
+- hey nova, volume down
+- please lower the volume
+- nova, lower the volume
+- can you lower the volume
+- could you lower the volume
+- hey nova, lower the volume
+- please decrease the volume
+- nova, decrease the volume
+- can you decrease the volume
+- could you decrease the volume
+- hey nova, decrease the volume
+- please make it quieter
+- nova, make it quieter
+- can you make it quieter
+- could you make it quieter
+- hey nova, make it quieter
+- please it's too loud
+- nova, it's too loud
+- can you it's too loud
+- could you it's too loud
+- hey nova, it's too loud
+- please quieter please
+- nova, quieter please
+- can you quieter please
+- could you quieter please
+- hey nova, quieter please
+- please bring the volume down
+- nova, bring the volume down
+- can you bring the volume down
+- could you bring the volume down
+- hey nova, bring the volume down
+- please reduce the volume
+- nova, reduce the volume
+- can you reduce the volume
+- could you reduce the volume
+- hey nova, reduce the volume
+- please the audio is too loud
+- nova, the audio is too loud
+- can you the audio is too loud
+- could you the audio is too loud
+- hey nova, the audio is too loud
+- please turn it down
+- nova, turn it down
+- can you turn it down
+- could you turn it down
+- hey nova, turn it down
+- tone it down
+- please tone it down
+- nova, tone it down
+- can you tone it down
+- could you tone it down
+- hey nova, tone it down
+- please turn down the sound
+- nova, turn down the sound
+- can you turn down the sound
+- could you turn down the sound
+- hey nova, turn down the sound
+- lower the audio
+- please lower the audio
+- nova, lower the audio
+- can you lower the audio
+- could you lower the audio
+- hey nova, lower the audio
+- please drop the volume
+- nova, drop the volume
+- can you drop the volume
+- could you drop the volume
+- hey nova, drop the volume
+
+INTENT: SET_VOLUME
+
+- set volume to 50
+- set the volume to 30 percent
+- volume to 20
+- put the volume at 75
+- set volume at 100
+- set the audio level to 40 percent
+- make the volume 60 percent
+- set volume 10
+- volume 30 percent
+- put volume to 65
+- set the volume at 15
+- volume to 85 percent
+- set volume level to 55
+- put the sound at 25 percent
+- set audio to 70
+- set the volume level to 45
+- adjust volume to 60 percent
+- set my sound at 35
+- volume level 80
+- set the audio to 25 percent
+- set volume to 10
+- set volume to 15
+- set volume to 20
+- set volume to 25
+- set volume to 30
+- set volume to 35
+- set volume to 40
+- set volume to 45
+- set volume to 55
+- set volume to 60
+- set volume to 65
+- set volume to 70
+- set volume to 75
+- set volume to 80
+- set volume to 85
+- set volume to 90
+- set volume to 95
+- set the volume to 10 percent
+- set the volume to 15 percent
+- set the volume to 20 percent
+- set the volume to 25 percent
+- set the volume to 35 percent
+- set the volume to 40 percent
+- set the volume to 45 percent
+- set the volume to 50 percent
+- set the volume to 55 percent
+- set the volume to 60 percent
+- set the volume to 65 percent
+- set the volume to 70 percent
+- set the volume to 75 percent
+- set the volume to 80 percent
+- set the volume to 85 percent
+- set the volume to 90 percent
+- set the volume to 95 percent
+- volume to 10
+- volume to 15
+- volume to 25
+- volume to 30
+- volume to 35
+- volume to 40
+- volume to 45
+- volume to 50
+- volume to 55
+- volume to 60
+- volume to 65
+- volume to 70
+- volume to 75
+- volume to 80
+- volume to 85
+- volume to 90
+- volume to 95
+- put the volume at 10
+- put the volume at 15
+- put the volume at 20
+- put the volume at 25
+- put the volume at 30
+- put the volume at 35
+- put the volume at 40
+- put the volume at 45
+- put the volume at 50
+- put the volume at 55
+- put the volume at 60
+- put the volume at 65
+- put the volume at 70
+- put the volume at 80
+- put the volume at 85
+- put the volume at 90
+- put the volume at 95
+- set volume at 10
+- set volume at 15
+- set volume at 20
+- set volume at 25
+- set volume at 30
+- set volume at 35
+- set volume at 40
+- set volume at 45
+- set volume at 50
+- set volume at 55
+- set volume at 60
+- set volume at 65
+- set volume at 70
+- set volume at 75
+- set volume at 80
+- set volume at 85
+- set volume at 90
+
+INTENT: MUTE
+
+- mute
+- mute the volume
+- mute the audio
+- silence the sound
+- mute my computer
+- mute it please
+- turn the sound off
+- mute the pc
+- silence please
+- mute the sound
+- mute please
+- silence the audio
+- cut the sound
+- mute the system audio
+- mute the system
+- silence it
+- sound off please
+- mute everything
+- put it on mute
+- please mute
+- nova, mute
+- can you mute
+- could you mute
+- hey nova, mute
+- please mute the volume
+- nova, mute the volume
+- can you mute the volume
+- could you mute the volume
+- hey nova, mute the volume
+- please mute the audio
+- nova, mute the audio
+- can you mute the audio
+- could you mute the audio
+- hey nova, mute the audio
+- please silence the sound
+- nova, silence the sound
+- can you silence the sound
+- could you silence the sound
+- hey nova, silence the sound
+- please mute my computer
+- nova, mute my computer
+- can you mute my computer
+- could you mute my computer
+- hey nova, mute my computer
+- please mute it please
+- nova, mute it please
+- can you mute it please
+- could you mute it please
+- hey nova, mute it please
+- please turn the sound off
+- nova, turn the sound off
+- can you turn the sound off
+- could you turn the sound off
+- hey nova, turn the sound off
+- please mute the pc
+- nova, mute the pc
+- can you mute the pc
+- could you mute the pc
+- hey nova, mute the pc
+- please silence please
+- nova, silence please
+- can you silence please
+- could you silence please
+- hey nova, silence please
+- please mute the system
+- nova, mute the system
+- can you mute the system
+- could you mute the system
+- hey nova, mute the system
+- please put it on mute
+- nova, put it on mute
+- can you put it on mute
+- could you put it on mute
+- hey nova, put it on mute
+- sound off
+- please sound off
+- nova, sound off
+- can you sound off
+- could you sound off
+- hey nova, sound off
+- please mute everything
+- nova, mute everything
+- can you mute everything
+- could you mute everything
+- hey nova, mute everything
+- please silence it
+- nova, silence it
+- can you silence it
+- could you silence it
+- hey nova, silence it
+
+INTENT: UNMUTE
+
+- unmute
+- unmute the volume
+- unmute the audio
+- turn the sound back on
+- unmute my computer
+- give me sound again
+- unmute the pc
+- unmute the sound
+- take it off mute
+- restore the audio
+- unmute it
+- unmute the system
+- turn the mute off
+- sound on again
+- take the mute off please
+- turn my sound back on
+- unmute the machine
+- please unmute
+- nova, unmute
+- can you unmute
+- could you unmute
+- hey nova, unmute
+- please unmute the volume
+- nova, unmute the volume
+- can you unmute the volume
+- could you unmute the volume
+- hey nova, unmute the volume
+- please unmute the audio
+- nova, unmute the audio
+- can you unmute the audio
+- could you unmute the audio
+- hey nova, unmute the audio
+- please turn the sound back on
+- nova, turn the sound back on
+- can you turn the sound back on
+- could you turn the sound back on
+- hey nova, turn the sound back on
+- please unmute my computer
+- nova, unmute my computer
+- can you unmute my computer
+- could you unmute my computer
+- hey nova, unmute my computer
+- please give me sound again
+- nova, give me sound again
+- can you give me sound again
+- could you give me sound again
+- hey nova, give me sound again
+- please unmute the system
+- nova, unmute the system
+- can you unmute the system
+- could you unmute the system
+- hey nova, unmute the system
+- please turn the mute off
+- nova, turn the mute off
+- can you turn the mute off
+- could you turn the mute off
+- hey nova, turn the mute off
+- please sound on again
+- nova, sound on again
+- can you sound on again
+- could you sound on again
+- hey nova, sound on again
+- please take it off mute
+- nova, take it off mute
+- can you take it off mute
+- could you take it off mute
+- hey nova, take it off mute
+- please restore the audio
+- nova, restore the audio
+- can you restore the audio
+- could you restore the audio
+- hey nova, restore the audio
+- please unmute it
+- nova, unmute it
+- can you unmute it
+- could you unmute it
+- hey nova, unmute it
+- please unmute the machine
+- nova, unmute the machine
+- can you unmute the machine
+- could you unmute the machine
+- hey nova, unmute the machine
+
+INTENT: GET_VOLUME
+
+- what's the volume
+- what is the volume level
+- how loud is the volume
+- volume status
+- what's the current volume
+- check the volume
+- how high is the sound set
+- what's the volume set at
+- how loud is it set
+- check volume level
+- current volume please
+- what level is the sound
+- please what's the volume
+- nova, what's the volume
+- can you what's the volume
+- could you what's the volume
+- hey nova, what's the volume
+- please what is the volume level
+- nova, what is the volume level
+- can you what is the volume level
+- could you what is the volume level
+- hey nova, what is the volume level
+- please how loud is the volume
+- nova, how loud is the volume
+- can you how loud is the volume
+- could you how loud is the volume
+- hey nova, how loud is the volume
+- please volume status
+- nova, volume status
+- can you volume status
+- could you volume status
+- hey nova, volume status
+- please what's the current volume
+- nova, what's the current volume
+- can you what's the current volume
+- could you what's the current volume
+- hey nova, what's the current volume
+- please check the volume
+- nova, check the volume
+- can you check the volume
+- could you check the volume
+- hey nova, check the volume
+- please how high is the sound set
+- nova, how high is the sound set
+- can you how high is the sound set
+- could you how high is the sound set
+- hey nova, how high is the sound set
+- please what's the volume set at
+- nova, what's the volume set at
+- can you what's the volume set at
+- could you what's the volume set at
+- hey nova, what's the volume set at
+- please how loud is it set
+- nova, how loud is it set
+- can you how loud is it set
+- could you how loud is it set
+- hey nova, how loud is it set
+- please check volume level
+- nova, check volume level
+- can you check volume level
+- could you check volume level
+- hey nova, check volume level
+- please current volume please
+- nova, current volume please
+- can you current volume please
+- could you current volume please
+- hey nova, current volume please
+- please what level is the sound
+- nova, what level is the sound
+- can you what level is the sound
+- could you what level is the sound
+- hey nova, what level is the sound
+- volume level
+- please volume level
+- nova, volume level
+- can you volume level
+- could you volume level
+- hey nova, volume level
+
+INTENT: BRIGHTNESS_UP
+
+- turn the brightness up
+- brightness up
+- increase the brightness
+- raise the brightness
+- make the screen brighter
+- it's too dim
+- make it brighter
+- screen is too dark
+- turn up the screen brightness
+- brighten the screen
+- raise the screen brightness
+- turn brightness up
+- increase screen brightness
+- screen too dim
+- increase display brightness
+- brighten my display
+- turn the screen brightness up
+- brightness higher
+- please turn the brightness up
+- nova, turn the brightness up
+- can you turn the brightness up
+- could you turn the brightness up
+- hey nova, turn the brightness up
+- please brightness up
+- nova, brightness up
+- can you brightness up
+- could you brightness up
+- hey nova, brightness up
+- please increase the brightness
+- nova, increase the brightness
+- can you increase the brightness
+- could you increase the brightness
+- hey nova, increase the brightness
+- please raise the brightness
+- nova, raise the brightness
+- can you raise the brightness
+- could you raise the brightness
+- hey nova, raise the brightness
+- please make the screen brighter
+- nova, make the screen brighter
+- can you make the screen brighter
+- could you make the screen brighter
+- hey nova, make the screen brighter
+- please it's too dim
+- nova, it's too dim
+- can you it's too dim
+- could you it's too dim
+- hey nova, it's too dim
+- please make it brighter
+- nova, make it brighter
+- can you make it brighter
+- could you make it brighter
+- hey nova, make it brighter
+- please screen is too dark
+- nova, screen is too dark
+- can you screen is too dark
+- could you screen is too dark
+- hey nova, screen is too dark
+- please turn up the screen brightness
+- nova, turn up the screen brightness
+- can you turn up the screen brightness
+- could you turn up the screen brightness
+- hey nova, turn up the screen brightness
+- please brighten the screen
+- nova, brighten the screen
+- can you brighten the screen
+- could you brighten the screen
+- hey nova, brighten the screen
+- raise the display brightness
+- please raise the display brightness
+- nova, raise the display brightness
+- can you raise the display brightness
+- could you raise the display brightness
+- hey nova, raise the display brightness
+- please brightness higher
+- nova, brightness higher
+- can you brightness higher
+- could you brightness higher
+- hey nova, brightness higher
+- please increase screen brightness
+- nova, increase screen brightness
+- can you increase screen brightness
+- could you increase screen brightness
+- hey nova, increase screen brightness
+
+INTENT: BRIGHTNESS_DOWN
+
+- turn the brightness down
+- brightness down
+- decrease the brightness
+- lower the brightness
+- dim the screen
+- make the screen dimmer
+- it's too bright
+- make it dimmer
+- screen is too bright at night
+- reduce the screen brightness
+- darken the screen
+- reduce brightness
+- turn down the brightness
+- decrease the screen brightness
+- lower screen brightness
+- lower the screen brightness
+- reduce the display brightness
+- dim my screen
+- turn the display brightness down
+- brightness lower
+- please turn the brightness down
+- nova, turn the brightness down
+- can you turn the brightness down
+- could you turn the brightness down
+- hey nova, turn the brightness down
+- please brightness down
+- nova, brightness down
+- can you brightness down
+- could you brightness down
+- hey nova, brightness down
+- please decrease the brightness
+- nova, decrease the brightness
+- can you decrease the brightness
+- could you decrease the brightness
+- hey nova, decrease the brightness
+- please lower the brightness
+- nova, lower the brightness
+- can you lower the brightness
+- could you lower the brightness
+- hey nova, lower the brightness
+- please dim the screen
+- nova, dim the screen
+- can you dim the screen
+- could you dim the screen
+- hey nova, dim the screen
+- please make the screen dimmer
+- nova, make the screen dimmer
+- can you make the screen dimmer
+- could you make the screen dimmer
+- hey nova, make the screen dimmer
+- please it's too bright
+- nova, it's too bright
+- can you it's too bright
+- could you it's too bright
+- hey nova, it's too bright
+- please make it dimmer
+- nova, make it dimmer
+- can you make it dimmer
+- could you make it dimmer
+- hey nova, make it dimmer
+- please screen is too bright at night
+- nova, screen is too bright at night
+- can you screen is too bright at night
+- could you screen is too bright at night
+- hey nova, screen is too bright at night
+- please reduce the screen brightness
+- nova, reduce the screen brightness
+- can you reduce the screen brightness
+- could you reduce the screen brightness
+- hey nova, reduce the screen brightness
+- please darken the screen
+- nova, darken the screen
+- can you darken the screen
+- could you darken the screen
+- hey nova, darken the screen
+- please turn down the brightness
+- nova, turn down the brightness
+- can you turn down the brightness
+- could you turn down the brightness
+- hey nova, turn down the brightness
+- lower the display brightness
+- please lower the display brightness
+- nova, lower the display brightness
+- can you lower the display brightness
+- could you lower the display brightness
+- hey nova, lower the display brightness
+- please brightness lower
+- nova, brightness lower
+- can you brightness lower
+- could you brightness lower
+- hey nova, brightness lower
+
+INTENT: SET_BRIGHTNESS
+
+- set brightness to 50
+- set the brightness to 80 percent
+- brightness to 30
+- set screen brightness to 70
+- put brightness at 40 percent
+- brightness 90
+- set the brightness to 65 percent
+- brightness to 45
+- set screen brightness at 25
+- put the brightness to 85
+- set brightness 100
+- set the brightness level to 75
+- adjust brightness to 55 percent
+- set my screen brightness at 35
+- brightness level 20
+- set display brightness to 90 percent
+- set brightness to 10
+- set brightness to 15
+- set brightness to 20
+- set brightness to 25
+- set brightness to 30
+- set brightness to 35
+- set brightness to 40
+- set brightness to 45
+- set brightness to 55
+- set brightness to 60
+- set brightness to 65
+- set brightness to 70
+- set brightness to 75
+- set brightness to 80
+- set brightness to 85
+- set brightness to 90
+- set brightness to 95
+- set the brightness to 10 percent
+- set the brightness to 15 percent
+- set the brightness to 20 percent
+- set the brightness to 25 percent
+- set the brightness to 30 percent
+- set the brightness to 35 percent
+- set the brightness to 40 percent
+- set the brightness to 45 percent
+- set the brightness to 50 percent
+- set the brightness to 55 percent
+- set the brightness to 60 percent
+- set the brightness to 70 percent
+- set the brightness to 75 percent
+- set the brightness to 85 percent
+- set the brightness to 90 percent
+- set the brightness to 95 percent
+- brightness to 10
+- brightness to 15
+- brightness to 20
+- brightness to 25
+- brightness to 35
+- brightness to 40
+- brightness to 50
+- brightness to 55
+- brightness to 60
+- brightness to 65
+- brightness to 70
+- brightness to 75
+- brightness to 80
+- brightness to 85
+- brightness to 90
+- brightness to 95
+- set screen brightness to 10
+- set screen brightness to 15
+- set screen brightness to 20
+- set screen brightness to 25
+- set screen brightness to 30
+- set screen brightness to 35
+- set screen brightness to 40
+- set screen brightness to 45
+- set screen brightness to 50
+- set screen brightness to 55
+- set screen brightness to 60
+- set screen brightness to 65
+- set screen brightness to 75
+- set screen brightness to 80
+- set screen brightness to 85
+- set screen brightness to 90
+- set screen brightness to 95
+- put brightness at 10 percent
+- put brightness at 15 percent
+- put brightness at 20 percent
+- put brightness at 25 percent
+- put brightness at 30 percent
+- put brightness at 35 percent
+- put brightness at 45 percent
+- put brightness at 50 percent
+- put brightness at 55 percent
+- put brightness at 60 percent
+- put brightness at 65 percent
+- put brightness at 70 percent
+- put brightness at 75 percent
+- put brightness at 80 percent
+- put brightness at 85 percent
+- put brightness at 90 percent
+- put brightness at 95 percent
+- set my brightness to 10
+- set my brightness to 15
+- set my brightness to 20
+- set my brightness to 25
+- set my brightness to 30
+- set my brightness to 35
+
+INTENT: BATTERY_STATUS
+
+- what's my battery percentage
+- what is the battery level
+- how much battery do I have left
+- battery status
+- check the battery
+- how is the battery
+- battery life
+- is the battery charging
+- how much charge is left
+- battery percentage please
+- battery percentage
+- how much battery is left
+- what's the charge level
+- check my battery level
+- is my laptop charging
+- battery level check
+- what is my battery at
+- how is the battery doing
+- remaining battery power
+- battery charge status
+- power level remaining
+- please what's my battery percentage
+- nova, what's my battery percentage
+- can you what's my battery percentage
+- could you what's my battery percentage
+- hey nova, what's my battery percentage
+- please what is the battery level
+- nova, what is the battery level
+- can you what is the battery level
+- could you what is the battery level
+- hey nova, what is the battery level
+- please how much battery do I have left
+- nova, how much battery do I have left
+- can you how much battery do I have left
+- could you how much battery do I have left
+- hey nova, how much battery do I have left
+- please battery status
+- nova, battery status
+- can you battery status
+- could you battery status
+- hey nova, battery status
+- please check the battery
+- nova, check the battery
+- can you check the battery
+- could you check the battery
+- hey nova, check the battery
+- please how is the battery
+- nova, how is the battery
+- can you how is the battery
+- could you how is the battery
+- hey nova, how is the battery
+- please battery life
+- nova, battery life
+- can you battery life
+- could you battery life
+- hey nova, battery life
+- please is the battery charging
+- nova, is the battery charging
+- can you is the battery charging
+- could you is the battery charging
+- hey nova, is the battery charging
+- please how much charge is left
+- nova, how much charge is left
+- can you how much charge is left
+- could you how much charge is left
+- hey nova, how much charge is left
+- please battery percentage please
+- nova, battery percentage please
+- can you battery percentage please
+- could you battery percentage please
+- hey nova, battery percentage please
+- please battery level check
+- nova, battery level check
+- can you battery level check
+- could you battery level check
+- hey nova, battery level check
+- please what is my battery at
+- nova, what is my battery at
+- can you what is my battery at
+- could you what is my battery at
+- hey nova, what is my battery at
+- please remaining battery power
+- nova, remaining battery power
+- can you remaining battery power
+- could you remaining battery power
+- hey nova, remaining battery power
+- please power level remaining
+- nova, power level remaining
+- can you power level remaining
+- could you power level remaining
+- hey nova, power level remaining
+- please battery charge status
+- nova, battery charge status
+- can you battery charge status
+- could you battery charge status
+- hey nova, battery charge status
+
+INTENT: WIFI_STATUS
+
+- wifi status
+- what's my wifi connection
+- am I connected to wifi
+- check the wifi
+- internet status
+- are we connected to the network
+- what network am I on
+- check the internet connection
+- wifi check please
+- what's the wifi status
+- which wifi network am I on
+- check my internet connection
+- am I on the internet
+- network status please
+- please wifi status
+- nova, wifi status
+- can you wifi status
+- could you wifi status
+- hey nova, wifi status
+- please what's my wifi connection
+- nova, what's my wifi connection
+- can you what's my wifi connection
+- could you what's my wifi connection
+- hey nova, what's my wifi connection
+- please am I connected to wifi
+- nova, am I connected to wifi
+- can you am I connected to wifi
+- could you am I connected to wifi
+- hey nova, am I connected to wifi
+- please check the wifi
+- nova, check the wifi
+- can you check the wifi
+- could you check the wifi
+- hey nova, check the wifi
+- please internet status
+- nova, internet status
+- can you internet status
+- could you internet status
+- hey nova, internet status
+- please are we connected to the network
+- nova, are we connected to the network
+- can you are we connected to the network
+- could you are we connected to the network
+- hey nova, are we connected to the network
+- please what network am I on
+- nova, what network am I on
+- can you what network am I on
+- could you what network am I on
+- hey nova, what network am I on
+- please check the internet connection
+- nova, check the internet connection
+- can you check the internet connection
+- could you check the internet connection
+- hey nova, check the internet connection
+- please wifi check please
+- nova, wifi check please
+- can you wifi check please
+- could you wifi check please
+- hey nova, wifi check please
+- please what's the wifi status
+- nova, what's the wifi status
+- can you what's the wifi status
+- could you what's the wifi status
+- hey nova, what's the wifi status
+- please which wifi network am I on
+- nova, which wifi network am I on
+- can you which wifi network am I on
+- could you which wifi network am I on
+- hey nova, which wifi network am I on
+- please check my internet connection
+- nova, check my internet connection
+- can you check my internet connection
+- could you check my internet connection
+- hey nova, check my internet connection
+- please am I on the internet
+- nova, am I on the internet
+- can you am I on the internet
+- could you am I on the internet
+- hey nova, am I on the internet
+- please network status please
+- nova, network status please
+- can you network status please
+- could you network status please
+- hey nova, network status please
+
+INTENT: SCREENSHOT
+
+- take a screenshot
+- take a screenshot of the screen
+- screenshot
+- capture the screen
+- grab a screenshot
+- screenshot the display
+- take a snapshot of my screen
+- capture my screen please
+- screenshot the screen
+- take a screen capture
+- capture the display
+- take a screenshot now
+- snap my screen
+- take a screenshot of my display
+- capture the screen now
+- snap a screenshot
+- screenshot my desktop
+- grab the screen image
+- please take a screenshot
+- nova, take a screenshot
+- can you take a screenshot
+- could you take a screenshot
+- hey nova, take a screenshot
+- please take a screenshot of the screen
+- nova, take a screenshot of the screen
+- can you take a screenshot of the screen
+- could you take a screenshot of the screen
+- hey nova, take a screenshot of the screen
+- please screenshot
+- nova, screenshot
+- can you screenshot
+- could you screenshot
+- hey nova, screenshot
+- please capture the screen
+- nova, capture the screen
+- can you capture the screen
+- could you capture the screen
+- hey nova, capture the screen
+- please grab a screenshot
+- nova, grab a screenshot
+- can you grab a screenshot
+- could you grab a screenshot
+- hey nova, grab a screenshot
+- please screenshot the display
+- nova, screenshot the display
+- can you screenshot the display
+- could you screenshot the display
+- hey nova, screenshot the display
+- please take a snapshot of my screen
+- nova, take a snapshot of my screen
+- can you take a snapshot of my screen
+- could you take a snapshot of my screen
+- hey nova, take a snapshot of my screen
+- please capture my screen please
+- nova, capture my screen please
+- can you capture my screen please
+- could you capture my screen please
+- hey nova, capture my screen please
+- please screenshot my desktop
+- nova, screenshot my desktop
+- can you screenshot my desktop
+- could you screenshot my desktop
+- hey nova, screenshot my desktop
+- please snap a screenshot
+- nova, snap a screenshot
+- can you snap a screenshot
+- could you snap a screenshot
+- hey nova, snap a screenshot
+- snap the screen
+- please snap the screen
+- nova, snap the screen
+- can you snap the screen
+- could you snap the screen
+- hey nova, snap the screen
+- please take a screen capture
+- nova, take a screen capture
+- can you take a screen capture
+- could you take a screen capture
+- hey nova, take a screen capture
+- please capture the display
+- nova, capture the display
+- can you capture the display
+- could you capture the display
+- hey nova, capture the display
+- grab the screen
+- please grab the screen
+- nova, grab the screen
+- can you grab the screen
+- could you grab the screen
+- hey nova, grab the screen
+
+INTENT: LOCK_SCREEN
+
+- lock my pc
+- lock the computer
+- lock my screen
+- lock the workstation
+- lock windows
+- lock it
+- lock my machine
+- secure my screen
+- lock the pc
+- lock my computer screen
+- lock windows now
+- lock the machine
+- lock my desktop
+- please lock my pc
+- nova, lock my pc
+- can you lock my pc
+- could you lock my pc
+- hey nova, lock my pc
+- please lock the computer
+- nova, lock the computer
+- can you lock the computer
+- could you lock the computer
+- hey nova, lock the computer
+- please lock my screen
+- nova, lock my screen
+- can you lock my screen
+- could you lock my screen
+- hey nova, lock my screen
+- please lock the workstation
+- nova, lock the workstation
+- can you lock the workstation
+- could you lock the workstation
+- hey nova, lock the workstation
+- please lock windows
+- nova, lock windows
+- can you lock windows
+- could you lock windows
+- hey nova, lock windows
+- please lock it
+- nova, lock it
+- can you lock it
+- could you lock it
+- hey nova, lock it
+- please lock my machine
+- nova, lock my machine
+- can you lock my machine
+- could you lock my machine
+- hey nova, lock my machine
+- please secure my screen
+- nova, secure my screen
+- can you secure my screen
+- could you secure my screen
+- hey nova, secure my screen
+- please lock the pc
+- nova, lock the pc
+- can you lock the pc
+- could you lock the pc
+- hey nova, lock the pc
+- please lock my desktop
+- nova, lock my desktop
+- can you lock my desktop
+- could you lock my desktop
+- hey nova, lock my desktop
+- please lock windows now
+- nova, lock windows now
+- can you lock windows now
+- could you lock windows now
+- hey nova, lock windows now
+- please lock the machine
+- nova, lock the machine
+- can you lock the machine
+- could you lock the machine
+- hey nova, lock the machine
+- please lock my computer screen
+- nova, lock my computer screen
+- can you lock my computer screen
+- could you lock my computer screen
+- hey nova, lock my computer screen
+
+INTENT: SHUTDOWN
+
+- shut down my pc
+- shut down the computer
+- turn off the computer
+- power off the pc
+- shut the machine down
+- shutdown
+- shut down my system
+- turn off my computer please
+- power down the machine
+- shut down the pc
+- turn off my pc
+- power off the computer
+- shut down windows
+- turn the machine off
+- shut down my computer now
+- power off my machine
+- turn off this pc
+- shut everything down
+- shutdown the system
+- please shut down my pc
+- nova, shut down my pc
+- can you shut down my pc
+- could you shut down my pc
+- hey nova, shut down my pc
+- please shut down the computer
+- nova, shut down the computer
+- can you shut down the computer
+- could you shut down the computer
+- hey nova, shut down the computer
+- please turn off the computer
+- nova, turn off the computer
+- can you turn off the computer
+- could you turn off the computer
+- hey nova, turn off the computer
+- please power off the pc
+- nova, power off the pc
+- can you power off the pc
+- could you power off the pc
+- hey nova, power off the pc
+- please shut the machine down
+- nova, shut the machine down
+- can you shut the machine down
+- could you shut the machine down
+- hey nova, shut the machine down
+- please shutdown
+- nova, shutdown
+- can you shutdown
+- could you shutdown
+- hey nova, shutdown
+- please shut down my system
+- nova, shut down my system
+- can you shut down my system
+- could you shut down my system
+- hey nova, shut down my system
+- please turn off my computer please
+- nova, turn off my computer please
+- can you turn off my computer please
+- could you turn off my computer please
+- hey nova, turn off my computer please
+- please power down the machine
+- nova, power down the machine
+- can you power down the machine
+- could you power down the machine
+- hey nova, power down the machine
+- please shut down the pc
+- nova, shut down the pc
+- can you shut down the pc
+- could you shut down the pc
+- hey nova, shut down the pc
+- please turn off my pc
+- nova, turn off my pc
+- can you turn off my pc
+- could you turn off my pc
+- hey nova, turn off my pc
+- please power off the computer
+- nova, power off the computer
+- can you power off the computer
+- could you power off the computer
+- hey nova, power off the computer
+- please shut down windows
+- nova, shut down windows
+- can you shut down windows
+- could you shut down windows
+- hey nova, shut down windows
+- please turn the machine off
+- nova, turn the machine off
+- can you turn the machine off
+- could you turn the machine off
+- hey nova, turn the machine off
+- please shut everything down
+- nova, shut everything down
+- can you shut everything down
+- could you shut everything down
+- hey nova, shut everything down
+
+INTENT: RESTART
+
+- restart my pc
+- restart the computer
+- reboot the system
+- reboot my pc
+- restart the machine
+- restart
+- reboot please
+- restart my computer now
+- reboot the computer
+- restart the pc please
+- reboot my machine
+- restart windows
+- restart this computer
+- please restart my pc
+- nova, restart my pc
+- can you restart my pc
+- could you restart my pc
+- hey nova, restart my pc
+- please restart the computer
+- nova, restart the computer
+- can you restart the computer
+- could you restart the computer
+- hey nova, restart the computer
+- please reboot the system
+- nova, reboot the system
+- can you reboot the system
+- could you reboot the system
+- hey nova, reboot the system
+- please reboot my pc
+- nova, reboot my pc
+- can you reboot my pc
+- could you reboot my pc
+- hey nova, reboot my pc
+- please restart the machine
+- nova, restart the machine
+- can you restart the machine
+- could you restart the machine
+- hey nova, restart the machine
+- please restart
+- nova, restart
+- can you restart
+- could you restart
+- hey nova, restart
+- please reboot please
+- nova, reboot please
+- can you reboot please
+- could you reboot please
+- hey nova, reboot please
+- please restart my computer now
+- nova, restart my computer now
+- can you restart my computer now
+- could you restart my computer now
+- hey nova, restart my computer now
+- please reboot the computer
+- nova, reboot the computer
+- can you reboot the computer
+- could you reboot the computer
+- hey nova, reboot the computer
+- restart the pc
+- please restart the pc
+- nova, restart the pc
+- can you restart the pc
+- could you restart the pc
+- hey nova, restart the pc
+- please restart windows
+- nova, restart windows
+- can you restart windows
+- could you restart windows
+- hey nova, restart windows
+- please restart this computer
+- nova, restart this computer
+- can you restart this computer
+- could you restart this computer
+- hey nova, restart this computer
+- give it a reboot
+- please give it a reboot
+- nova, give it a reboot
+- can you give it a reboot
+- could you give it a reboot
+- hey nova, give it a reboot
+- please reboot my machine
+- nova, reboot my machine
+- can you reboot my machine
+- could you reboot my machine
+- hey nova, reboot my machine
+
+INTENT: SLEEP_PC
+
+- put my pc to sleep
+- put the computer to sleep
+- sleep the pc
+- put my computer in sleep mode
+- go to sleep mode
+- make the computer sleep
+- sleep my machine
+- put my computer to sleep
+- sleep mode now
+- put the machine to sleep
+- send the pc to sleep
+- let the computer sleep
+- sleep the computer
+- put this machine in sleep mode
+- make my pc sleep now
+- enter sleep mode
+- nap time for the pc
+- please put my pc to sleep
+- nova, put my pc to sleep
+- can you put my pc to sleep
+- could you put my pc to sleep
+- hey nova, put my pc to sleep
+- please put the computer to sleep
+- nova, put the computer to sleep
+- can you put the computer to sleep
+- could you put the computer to sleep
+- hey nova, put the computer to sleep
+- please sleep the pc
+- nova, sleep the pc
+- can you sleep the pc
+- could you sleep the pc
+- hey nova, sleep the pc
+- please put my computer in sleep mode
+- nova, put my computer in sleep mode
+- can you put my computer in sleep mode
+- could you put my computer in sleep mode
+- hey nova, put my computer in sleep mode
+- please go to sleep mode
+- nova, go to sleep mode
+- can you go to sleep mode
+- could you go to sleep mode
+- hey nova, go to sleep mode
+- please make the computer sleep
+- nova, make the computer sleep
+- can you make the computer sleep
+- could you make the computer sleep
+- hey nova, make the computer sleep
+- please sleep my machine
+- nova, sleep my machine
+- can you sleep my machine
+- could you sleep my machine
+- hey nova, sleep my machine
+- please put my computer to sleep
+- nova, put my computer to sleep
+- can you put my computer to sleep
+- could you put my computer to sleep
+- hey nova, put my computer to sleep
+- please sleep mode now
+- nova, sleep mode now
+- can you sleep mode now
+- could you sleep mode now
+- hey nova, sleep mode now
+- please send the pc to sleep
+- nova, send the pc to sleep
+- can you send the pc to sleep
+- could you send the pc to sleep
+- hey nova, send the pc to sleep
+- please let the computer sleep
+- nova, let the computer sleep
+- can you let the computer sleep
+- could you let the computer sleep
+- hey nova, let the computer sleep
+- please enter sleep mode
+- nova, enter sleep mode
+- can you enter sleep mode
+- could you enter sleep mode
+- hey nova, enter sleep mode
+- please put this machine in sleep mode
+- nova, put this machine in sleep mode
+- can you put this machine in sleep mode
+- could you put this machine in sleep mode
+- hey nova, put this machine in sleep mode
+
+INTENT: PLAY_MUSIC
+
+- play music
+- play some music
+- play a song
+- resume the music
+- play the track
+- play
+- put on some music
+- start playing music
+- resume playback
+- play my music
+- start the music
+- play a track
+- resume my song
+- music on
+- please play music
+- nova, play music
+- can you play music
+- could you play music
+- hey nova, play music
+- please play some music
+- nova, play some music
+- can you play some music
+- could you play some music
+- hey nova, play some music
+- please play a song
+- nova, play a song
+- can you play a song
+- could you play a song
+- hey nova, play a song
+- please resume the music
+- nova, resume the music
+- can you resume the music
+- could you resume the music
+- hey nova, resume the music
+- please play the track
+- nova, play the track
+- can you play the track
+- could you play the track
+- hey nova, play the track
+- please play
+- nova, play
+- can you play
+- could you play
+- hey nova, play
+- please put on some music
+- nova, put on some music
+- can you put on some music
+- could you put on some music
+- hey nova, put on some music
+- please start playing music
+- nova, start playing music
+- can you start playing music
+- could you start playing music
+- hey nova, start playing music
+- please resume playback
+- nova, resume playback
+- can you resume playback
+- could you resume playback
+- hey nova, resume playback
+- please play my music
+- nova, play my music
+- can you play my music
+- could you play my music
+- hey nova, play my music
+- please start the music
+- nova, start the music
+- can you start the music
+- could you start the music
+- hey nova, start the music
+- please play a track
+- nova, play a track
+- can you play a track
+- could you play a track
+- hey nova, play a track
+- please resume my song
+- nova, resume my song
+- can you resume my song
+- could you resume my song
+- hey nova, resume my song
+- please music on
+- nova, music on
+- can you music on
+- could you music on
+- hey nova, music on
+- crank up the tunes
+- please crank up the tunes
+- nova, crank up the tunes
+- can you crank up the tunes
+- could you crank up the tunes
+- hey nova, crank up the tunes
+
+INTENT: PAUSE_MUSIC
+
+- pause
+- pause the music
+- pause the song
+- hold on a second
+- pause playback
+- pause it
+- stop the music playing
+- freeze the track
+- pause the track
+- hold the music
+- pause it please
+- stop playing for a moment
+- please pause
+- nova, pause
+- can you pause
+- could you pause
+- hey nova, pause
+- please pause the music
+- nova, pause the music
+- can you pause the music
+- could you pause the music
+- hey nova, pause the music
+- please pause the song
+- nova, pause the song
+- can you pause the song
+- could you pause the song
+- hey nova, pause the song
+- please hold on a second
+- nova, hold on a second
+- can you hold on a second
+- could you hold on a second
+- hey nova, hold on a second
+- please pause playback
+- nova, pause playback
+- can you pause playback
+- could you pause playback
+- hey nova, pause playback
+- please pause it
+- nova, pause it
+- can you pause it
+- could you pause it
+- hey nova, pause it
+- please stop the music playing
+- nova, stop the music playing
+- can you stop the music playing
+- could you stop the music playing
+- hey nova, stop the music playing
+- please freeze the track
+- nova, freeze the track
+- can you freeze the track
+- could you freeze the track
+- hey nova, freeze the track
+- please pause the track
+- nova, pause the track
+- can you pause the track
+- could you pause the track
+- hey nova, pause the track
+- please hold the music
+- nova, hold the music
+- can you hold the music
+- could you hold the music
+- hey nova, hold the music
+- please pause it please
+- nova, pause it please
+- can you pause it please
+- could you pause it please
+- hey nova, pause it please
+- please stop playing for a moment
+- nova, stop playing for a moment
+- can you stop playing for a moment
+- could you stop playing for a moment
+- hey nova, stop playing for a moment
+
+INTENT: NEXT_TRACK
+
+- next track
+- next song
+- skip this track
+- skip to the next one
+- play the next song
+- skip
+- next
+- jump to the next track
+- next song please
+- skip this song
+- play the next track
+- advance to the next song
+- skip forward
+- please next track
+- nova, next track
+- can you next track
+- could you next track
+- hey nova, next track
+- please next song
+- nova, next song
+- can you next song
+- could you next song
+- hey nova, next song
+- please skip this track
+- nova, skip this track
+- can you skip this track
+- could you skip this track
+- hey nova, skip this track
+- please skip to the next one
+- nova, skip to the next one
+- can you skip to the next one
+- could you skip to the next one
+- hey nova, skip to the next one
+- please play the next song
+- nova, play the next song
+- can you play the next song
+- could you play the next song
+- hey nova, play the next song
+- please skip
+- nova, skip
+- can you skip
+- could you skip
+- hey nova, skip
+- please next
+- nova, next
+- can you next
+- could you next
+- hey nova, next
+- please jump to the next track
+- nova, jump to the next track
+- can you jump to the next track
+- could you jump to the next track
+- hey nova, jump to the next track
+- please next song please
+- nova, next song please
+- can you next song please
+- could you next song please
+- hey nova, next song please
+- please skip this song
+- nova, skip this song
+- can you skip this song
+- could you skip this song
+- hey nova, skip this song
+- please advance to the next song
+- nova, advance to the next song
+- can you advance to the next song
+- could you advance to the next song
+- hey nova, advance to the next song
+- please skip forward
+- nova, skip forward
+- can you skip forward
+- could you skip forward
+- hey nova, skip forward
+- next one
+- please next one
+- nova, next one
+- can you next one
+- could you next one
+- hey nova, next one
+
+INTENT: PREV_TRACK
+
+- previous track
+- previous song
+- go back a track
+- play the last song again
+- previous
+- go back to the previous song
+- rewind to the last track
+- last track
+- go to the previous song
+- play the previous track
+- back one song
+- skip backward
+- please previous track
+- nova, previous track
+- can you previous track
+- could you previous track
+- hey nova, previous track
+- please previous song
+- nova, previous song
+- can you previous song
+- could you previous song
+- hey nova, previous song
+- please go back a track
+- nova, go back a track
+- can you go back a track
+- could you go back a track
+- hey nova, go back a track
+- please play the last song again
+- nova, play the last song again
+- can you play the last song again
+- could you play the last song again
+- hey nova, play the last song again
+- please previous
+- nova, previous
+- can you previous
+- could you previous
+- hey nova, previous
+- please go back to the previous song
+- nova, go back to the previous song
+- can you go back to the previous song
+- could you go back to the previous song
+- hey nova, go back to the previous song
+- please rewind to the last track
+- nova, rewind to the last track
+- can you rewind to the last track
+- could you rewind to the last track
+- hey nova, rewind to the last track
+- please last track
+- nova, last track
+- can you last track
+- could you last track
+- hey nova, last track
+- please go to the previous song
+- nova, go to the previous song
+- can you go to the previous song
+- could you go to the previous song
+- hey nova, go to the previous song
+- please play the previous track
+- nova, play the previous track
+- can you play the previous track
+- could you play the previous track
+- hey nova, play the previous track
+- please back one song
+- nova, back one song
+- can you back one song
+- could you back one song
+- hey nova, back one song
+- please skip backward
+- nova, skip backward
+- can you skip backward
+- could you skip backward
+- hey nova, skip backward
+- previous one
+- please previous one
+- nova, previous one
+- can you previous one
+- could you previous one
+- hey nova, previous one
+
+INTENT: GET_DATE
+
+- what's the date
+- what is today's date
+- what's the date today
+- tell me the date
+- date please
+- what day of the month is it
+- what's today's date
+- the date check
+- what is the date
+- what is the date today
+- tell me today's date
+- what's the current date
+- date check
+- what date is it
+- please what's the date
+- nova, what's the date
+- can you what's the date
+- could you what's the date
+- hey nova, what's the date
+- please what is today's date
+- nova, what is today's date
+- can you what is today's date
+- could you what is today's date
+- hey nova, what is today's date
+- please what's the date today
+- nova, what's the date today
+- can you what's the date today
+- could you what's the date today
+- hey nova, what's the date today
+- please tell me the date
+- nova, tell me the date
+- can you tell me the date
+- could you tell me the date
+- hey nova, tell me the date
+- please date please
+- nova, date please
+- can you date please
+- could you date please
+- hey nova, date please
+- please what is the date
+- nova, what is the date
+- can you what is the date
+- could you what is the date
+- hey nova, what is the date
+- please what date is it
+- nova, what date is it
+- can you what date is it
+- could you what date is it
+- hey nova, what date is it
+- please what's today's date
+- nova, what's today's date
+- can you what's today's date
+- could you what's today's date
+- hey nova, what's today's date
+- please the date check
+- nova, the date check
+- can you the date check
+- could you the date check
+- hey nova, the date check
+- please what day of the month is it
+- nova, what day of the month is it
+- can you what day of the month is it
+- could you what day of the month is it
+- hey nova, what day of the month is it
+- current date
+- please current date
+- nova, current date
+- can you current date
+- could you current date
+- hey nova, current date
+- date now
+- please date now
+- nova, date now
+- can you date now
+- could you date now
+- hey nova, date now
+
+INTENT: GET_DAY
+
+- what day is it
+- what day is today
+- what day are we on
+- tell me the day
+- what's the day today
+- is it monday today
+- which day of the week is it
+- what day is it today
+- which weekday is it
+- tell me today's day
+- what day of the week are we in
+- day check
+- please what day is it
+- nova, what day is it
+- can you what day is it
+- could you what day is it
+- hey nova, what day is it
+- please what day is today
+- nova, what day is today
+- can you what day is today
+- could you what day is today
+- hey nova, what day is today
+- please what day are we on
+- nova, what day are we on
+- can you what day are we on
+- could you what day are we on
+- hey nova, what day are we on
+- please tell me the day
+- nova, tell me the day
+- can you tell me the day
+- could you tell me the day
+- hey nova, tell me the day
+- please what's the day today
+- nova, what's the day today
+- can you what's the day today
+- could you what's the day today
+- hey nova, what's the day today
+- which day is it
+- please which day is it
+- nova, which day is it
+- can you which day is it
+- could you which day is it
+- hey nova, which day is it
+- what day of the week is it
+- please what day of the week is it
+- nova, what day of the week is it
+- can you what day of the week is it
+- could you what day of the week is it
+- hey nova, what day of the week is it
+- please day check
+- nova, day check
+- can you day check
+- could you day check
+- hey nova, day check
+- is it friday
+- please is it friday
+- nova, is it friday
+- can you is it friday
+- could you is it friday
+- hey nova, is it friday
+- what weekday are we in
+- please what weekday are we in
+- nova, what weekday are we in
+- can you what weekday are we in
+- could you what weekday are we in
+- hey nova, what weekday are we in
+- today's day
+- please today's day
+- nova, today's day
+- can you today's day
+- could you today's day
+- hey nova, today's day
+- day now
+- please day now
+- nova, day now
+- can you day now
+- could you day now
+- hey nova, day now
+
+INTENT: CALCULATE
+
+- calculate 45 times 12
+- what's 25 plus 17
+- what is 90 minus 31
+- calculate 200 divided by 4
+- what's 15 percent of 800
+- what is 2 to the power of 8
+- calculate 144 square root
+- what's 5 squared
+- what is 2 cubed
+- compute 12 times 12
+- calculate 99 times 3
+- what's 6 divided by 2
+- what is 8 plus 7
+- calculate 3.5 plus 1.2
+- what's 20 percent of 150
+- calculate 13 times 7
+- what's 120 divided by 8
+- what is 45 plus 55
+- calculate 81 minus 19
+- what's 3 to the power of 4
+- what is 10 percent of 250
+- calculate 64 square root
+- what's 9 squared
+- what is 45 times 12
+- what's 45 times 12
+- calculate 12 times 7
+- what is 12 times 7
+- what's 12 times 7
+- what is 200 divided by 4
+- what's 200 divided by 4
+- calculate 120 divided by 8
+- what is 120 divided by 8
+- calculate 25 plus 17
+- what is 25 plus 17
+- calculate 90 minus 31
+- what's 90 minus 31
+- calculate 55 plus 45
+- what is 55 plus 45
+- what's 55 plus 45
+- what is 81 minus 19
+- what's 81 minus 19
+- calculate 144 divided by 12
+- what is 144 divided by 12
+- what's 144 divided by 12
+- calculate 13 times 9
+- what is 13 times 9
+- what's 13 times 9
+- calculate 48 divided by 6
+- what is 48 divided by 6
+- what's 48 divided by 6
+- calculate 67 plus 33
+- what is 67 plus 33
+- what's 67 plus 33
+- calculate 6 times 4
+- what's 6 times 4
+- calculate 6 multiplied by 4
+- what's 6 multiplied by 4
+- calculate 6 plus 4
+- what's 6 plus 4
+- calculate 6 minus 4
+- what's 6 minus 4
+- calculate 6 divided by 4
+- what's 6 divided by 4
+- calculate 12 times 3
+- what's 12 times 3
+- calculate 12 multiplied by 3
+- what's 12 multiplied by 3
+- calculate 12 plus 3
+- what's 12 plus 3
+- calculate 12 minus 3
+- what's 12 minus 3
+- calculate 12 divided by 3
+- what's 12 divided by 3
+- calculate 9 times 8
+- what's 9 times 8
+- calculate 9 multiplied by 8
+- what's 9 multiplied by 8
+- calculate 9 plus 8
+- what's 9 plus 8
+- calculate 9 minus 8
+- what's 9 minus 8
+- calculate 9 divided by 8
+- what's 9 divided by 8
+- calculate 15 times 7
+- what's 15 times 7
+- calculate 15 multiplied by 7
+- what's 15 multiplied by 7
+- calculate 15 plus 7
+- what's 15 plus 7
+- calculate 15 minus 7
+- what's 15 minus 7
+- calculate 15 divided by 7
+- what's 15 divided by 7
+- calculate 22 times 11
+- what's 22 times 11
+- calculate 22 multiplied by 11
+- what's 22 multiplied by 11
+- calculate 22 plus 11
+- what's 22 plus 11
+- calculate 22 minus 11
+- what's 22 minus 11
+- calculate 22 divided by 11
+- what's 22 divided by 11
+- calculate 40 times 25
+- what's 40 times 25
+
+INTENT: CREATE_FOLDER
+
+- create a folder called Projects
+- make a new folder named Work
+- create a folder on the desktop called Notes
+- make a folder called Test
+- create a new folder named Archive
+- make me a folder called Budget
+- create a folder named photos backup
+- make a folder called learning on the desktop
+- create a new folder called invoices
+- make a folder named workouts
+- create a folder called receipts in documents
+- create a directory called projects
+- make a directory named media
+- new folder named downloads backup
+- create directory called games
+- make me a folder named papers
+- make a new folder named projects
+- create a folder named projects
+- make a folder called projects
+- new folder called projects
+- create a directory named projects
+- make me a folder called projects
+- make a directory called projects
+- create a folder called work
+- create a folder named work
+- make a folder called work
+- new folder called work
+- create a directory named work
+- make me a folder called work
+- make a directory called work
+- create a folder called archive
+- make a new folder named archive
+- create a folder named archive
+- make a folder called archive
+- new folder called archive
+- create a directory named archive
+- make me a folder called archive
+- make a directory called archive
+- create a folder called backups
+- make a new folder named backups
+- create a folder named backups
+- make a folder called backups
+- new folder called backups
+- create a directory named backups
+- make me a folder called backups
+- make a directory called backups
+- create a folder called temp
+- make a new folder named temp
+- create a folder named temp
+- make a folder called temp
+- new folder called temp
+- create a directory named temp
+- make me a folder called temp
+- make a directory called temp
+- create a folder called media
+- make a new folder named media
+- create a folder named media
+- make a folder called media
+- new folder called media
+- create a directory named media
+- make me a folder called media
+- make a directory called media
+- create a folder called school
+- make a new folder named school
+- create a folder named school
+- make a folder called school
+- new folder called school
+- create a directory named school
+- make me a folder called school
+- make a directory called school
+- create a folder called finance
+- make a new folder named finance
+- create a folder named finance
+- make a folder called finance
+- new folder called finance
+- create a directory named finance
+- make me a folder called finance
+- make a directory called finance
+- create a folder called photos
+- make a new folder named photos
+- create a folder named photos
+- make a folder called photos
+- new folder called photos
+- create a directory named photos
+- make me a folder called photos
+- make a directory called photos
+- create a folder called receipts
+- make a new folder named receipts
+- create a folder named receipts
+- make a folder called receipts
+- new folder called receipts
+- create a directory named receipts
+- make me a folder called receipts
+- make a directory called receipts
+- create a folder called projects on the desktop
+- make a new folder on the desktop called projects
+- create a folder called work on the desktop
+- make a new folder on the desktop called work
+- create a folder called archive on the desktop
+- make a new folder on the desktop called archive
+- create a folder called backups on the desktop
+- make a new folder on the desktop called backups
+- create a folder called temp on the desktop
+- make a new folder on the desktop called temp
+- create a folder called media on the desktop
+
+INTENT: CREATE_FILE
+
+- create a text file called shopping
+- make a new file called todo
+- create a file named ideas
+- make a text file called journal
+- create a new text file named passwords
+- create a text file called groceries on the desktop
+- make a file named meeting notes
+- create a new file called budget
+- make a text file named reminders
+- create a file called password list
+- create a text file named notes today
+- make a file called plan
+- new text file named journal
+- create file named budget txt
+- make me a text file named shopping list
+- create a text file called notes
+- make a new file named notes
+- create a file named notes
+- make a text file called notes
+- new text file named notes
+- create a file called notes
+- make me a text file named notes
+- create a new file named notes
+- create a text file called todo
+- make a new file named todo
+- create a file named todo
+- make a text file called todo
+- new text file named todo
+- create a file called todo
+- make me a text file named todo
+- create a new file named todo
+- create a text file called journal
+- make a new file named journal
+- create a file named journal
+- create a file called journal
+- make me a text file named journal
+- create a new file named journal
+- create a text file called ideas
+- make a new file named ideas
+- make a text file called ideas
+- new text file named ideas
+- create a file called ideas
+- make me a text file named ideas
+- create a new file named ideas
+- create a text file called plan
+- make a new file named plan
+- create a file named plan
+- make a text file called plan
+- new text file named plan
+- create a file called plan
+- make me a text file named plan
+- create a new file named plan
+- create a text file called shopping list
+- make a new file named shopping list
+- create a file named shopping list
+- make a text file called shopping list
+- new text file named shopping list
+- create a file called shopping list
+- create a new file named shopping list
+- create a text file called report
+- make a new file named report
+- create a file named report
+- make a text file called report
+- new text file named report
+- create a file called report
+- make me a text file named report
+- create a new file named report
+- create a text file called summary
+- make a new file named summary
+- create a file named summary
+- make a text file called summary
+- new text file named summary
+- create a file called summary
+- make me a text file named summary
+- create a new file named summary
+- create a text file called draft
+- make a new file named draft
+- create a file named draft
+- make a text file called draft
+- new text file named draft
+- create a file called draft
+- make me a text file named draft
+- create a new file named draft
+- create a text file called diary
+- make a new file named diary
+- create a file named diary
+- make a text file called diary
+- new text file named diary
+- create a file called diary
+- make me a text file named diary
+- create a new file named diary
+- create a text file called log
+- make a new file named log
+- create a file named log
+- make a text file called log
+- new text file named log
+- create a file called log
+- make me a text file named log
+- create a new file named log
+- create a text file called agenda
+- make a new file named agenda
+- create a file named agenda
+- make a text file called agenda
+- new text file named agenda
+- create a file called agenda
+
+INTENT: OPEN_FOLDER
+
+- open my downloads folder
+- open the documents folder
+- show my desktop folder
+- open downloads
+- open my documents
+- launch the desktop folder
+- show my notes folder
+- open the downloads folder
+- show my documents folder
+- open my desktop
+- launch my notes folder
+- open documents please
+- show my downloads folder
+- launch the downloads folder
+- open up my downloads
+- take me to my downloads
+- open documents
+- launch the documents folder
+- open up my documents
+- take me to my documents
+- open my desktop folder
+- open the desktop folder
+- open desktop
+- open up my desktop
+- take me to my desktop
+- open my notes folder
+- open the notes folder
+- open notes
+- launch the notes folder
+- open up my notes
+- take me to my notes
+
+INTENT: LIST_FOLDER
+
+- show files in downloads
+- what's in my documents
+- list the files on my desktop
+- what's in downloads
+- show what's in my notes folder
+- list my documents
+- show my downloads files
+- what files are in documents
+- list files on desktop
+- what's inside my notes
+- show the files in downloads
+- what's in my downloads
+- list the files in downloads
+- what files are in downloads
+- show what's in downloads
+- list my downloads
+- what's inside my downloads
+- show files in documents
+- list the files in documents
+- show what's in documents
+- what's inside my documents
+- show my documents files
+- show files in desktop
+- what's in my desktop
+- list the files in desktop
+- what files are in desktop
+- show what's in desktop
+- list my desktop
+- what's inside my desktop
+- show my desktop files
+- show files in notes
+- what's in my notes
+- list the files in notes
+- what files are in notes
+- show what's in notes
+- list my notes
+- show my notes files
+
+INTENT: FIND_FILES
+
+- find my python files in documents
+- find report files in documents
+- search my downloads for invoices
+- find my resume in documents
+- find python files
+- search documents for project files
+- find my resume files in documents
+- search my documents for resume files
+- find resume in documents
+- find my invoice files in documents
+- search my documents for invoice files
+- find invoice in documents
+- find my report files in documents
+- search my documents for report files
+- find report in documents
+- search my documents for python files
+- find python in documents
+- find my essay files in documents
+- search my documents for essay files
+- find essay in documents
+- find my photo files in documents
+- search my documents for photo files
+- find photo in documents
+- find my budget files in documents
+- search my documents for budget files
+- find budget in documents
+- find my contract files in documents
+- search my documents for contract files
+- find contract in documents
+- find my homework files in documents
+- search my documents for homework files
+- find homework in documents
+- find my presentation files in documents
+- search my documents for presentation files
+- find presentation in documents
+- find my certificate files in documents
+- search my documents for certificate files
+- find certificate in documents
+- find my scan files in documents
+- search my documents for scan files
+- find scan in documents
+- find my resume files in downloads
+- search my downloads for resume files
+- find resume in downloads
+- find my invoice files in downloads
+- search my downloads for invoice files
+- find invoice in downloads
+- find my report files in downloads
+- search my downloads for report files
+- find report in downloads
+- find my python files in downloads
+- search my downloads for python files
+- find python in downloads
+- find my essay files in downloads
+- search my downloads for essay files
+- find essay in downloads
+- find my photo files in downloads
+- search my downloads for photo files
+- find photo in downloads
+- find my budget files in downloads
+- search my downloads for budget files
+- find budget in downloads
+- find my contract files in downloads
+- search my downloads for contract files
+- find contract in downloads
+- find my homework files in downloads
+- search my downloads for homework files
+- find homework in downloads
+- find my presentation files in downloads
+- search my downloads for presentation files
+- find presentation in downloads
+- find my certificate files in downloads
+- search my downloads for certificate files
+- find certificate in downloads
+- find my scan files in downloads
+- search my downloads for scan files
+- find scan in downloads
+- find my resume files in desktop
+- search my desktop for resume files
+- find resume in desktop
+- find my invoice files in desktop
+- search my desktop for invoice files
+- find invoice in desktop
+- find my report files in desktop
+- search my desktop for report files
+- find report in desktop
+- find my python files in desktop
+- search my desktop for python files
+- find python in desktop
+- find my essay files in desktop
+- search my desktop for essay files
+- find essay in desktop
+- find my photo files in desktop
+- search my desktop for photo files
+- find photo in desktop
+- find my budget files in desktop
+- search my desktop for budget files
+- find budget in desktop
+- find my contract files in desktop
+- search my desktop for contract files
+- find contract in desktop
+- find my homework files in desktop
+- search my desktop for homework files
+- find homework in desktop
+- find my presentation files in desktop
+
+INTENT: RENAME_FILE
+
+- rename draft.txt to final.txt
+- rename old notes to archive
+- rename project draft to project final in documents
+- rename my file essay to essay v2
+- rename temp to temp backup
+- rename note.txt to ideas.txt
+- rename my file draft to submission
+- rename chart to final chart
+- rename photo1 to vacation photo
+- rename draft to final
+- rename my file draft to final
+- rename draft.txt to final.txt in documents
+- rename notes to archive
+- rename my file notes to archive
+- rename notes.txt to archive.txt in documents
+- rename my file temp to temp backup
+- rename temp.txt to temp backup.txt in documents
+- rename old to new
+- rename my file old to new
+- rename old.txt to new.txt in documents
+- rename report v1 to report v2
+- rename my file report v1 to report v2
+- rename report v1.txt to report v2.txt in documents
+- rename photo1 to vacation
+- rename my file photo1 to vacation
+- rename photo1.txt to vacation.txt in documents
+- rename essay to essay final
+- rename my file essay to essay final
+- rename essay.txt to essay final.txt in documents
+- rename scan to invoice scan
+- rename my file scan to invoice scan
+- rename scan.txt to invoice scan.txt in documents
+
+INTENT: MOVE_FILE
+
+- move report.docx to documents
+- move screenshot to downloads
+- move my file notes to documents
+- move invoice to documents folder
+- move homework.txt to documents
+- move my spreadsheet to documents
+- move the pdf to downloads
+- move presentation file to documents
+- move report.docx to downloads
+- move report.docx to desktop
+- move homework.txt to downloads
+- move homework.txt to desktop
+- move screenshot to documents
+- move screenshot to desktop
+- move invoice to documents
+- move invoice to downloads
+- move invoice to desktop
+- move presentation to documents
+- move presentation to downloads
+- move presentation to desktop
+- move spreadsheet to documents
+- move spreadsheet to downloads
+- move spreadsheet to desktop
+- move the pdf to documents
+- move the pdf to desktop
+- move my notes to documents
+- move my notes to downloads
+- move my notes to desktop
+- move the spreadsheet to documents
+- move the spreadsheet to downloads
+- move the spreadsheet to desktop
+
+INTENT: DELETE_FILE
+
+- delete the file junk.txt
+- remove old notes
+- delete folder temp stuff on the desktop
+- delete test file
+- remove the file draft in documents
+- delete old draft from the desktop
+- remove temp file from downloads
+- delete the notes file
+- delete screenshot from the desktop
+- remove backup folder
+- delete junk.txt
+- remove junk.txt
+- delete junk.txt from the desktop
+- remove junk.txt from the desktop
+- delete junk.txt in documents
+- remove junk.txt in documents
+- delete junk.txt from downloads
+- remove junk.txt from downloads
+- delete old draft
+- remove old draft
+- remove old draft from the desktop
+- delete old draft in documents
+- remove old draft in documents
+- delete old draft from downloads
+- remove old draft from downloads
+- delete temp file
+- remove temp file
+- delete temp file from the desktop
+- remove temp file from the desktop
+- delete temp file in documents
+- remove temp file in documents
+- delete temp file from downloads
+- delete notes file
+- remove notes file
+- delete notes file from the desktop
+- remove notes file from the desktop
+- delete notes file in documents
+- remove notes file in documents
+- delete notes file from downloads
+- remove notes file from downloads
+- delete backup folder
+- delete backup folder from the desktop
+- remove backup folder from the desktop
+- delete backup folder in documents
+- remove backup folder in documents
+- delete backup folder from downloads
+- remove backup folder from downloads
+- remove test file
+- delete test file from the desktop
+- remove test file from the desktop
+- delete test file in documents
+- remove test file in documents
+- delete test file from downloads
+- remove test file from downloads
+- delete the screenshot
+- remove the screenshot
+- delete the screenshot from the desktop
+- remove the screenshot from the desktop
+- delete the screenshot in documents
+- remove the screenshot in documents
+- delete the screenshot from downloads
+- remove the screenshot from downloads
+- delete old notes
+- delete old notes from the desktop
+- remove old notes from the desktop
+- delete old notes in documents
+- remove old notes in documents
+- delete old notes from downloads
+- remove old notes from downloads
+- delete the download
+- remove the download
+- delete the download from the desktop
+- remove the download from the desktop
+- delete the download in documents
+- remove the download in documents
+- delete the download from downloads
+- remove the download from downloads
+
+INTENT: LIST_TASKS
+
+- what tasks do I have
+- show my tasks
+- list my to-dos
+- what's pending on my list
+- which tasks are pending
+- show my pending tasks
+- what's on my task list
+- show pending tasks
+- list my tasks
+- what to-dos are pending
+- check my task list
+- please what tasks do I have
+- nova, what tasks do I have
+- can you what tasks do I have
+- could you what tasks do I have
+- hey nova, what tasks do I have
+- please show my tasks
+- nova, show my tasks
+- can you show my tasks
+- could you show my tasks
+- hey nova, show my tasks
+- please list my to-dos
+- nova, list my to-dos
+- can you list my to-dos
+- could you list my to-dos
+- hey nova, list my to-dos
+- please what's pending on my list
+- nova, what's pending on my list
+- can you what's pending on my list
+- could you what's pending on my list
+- hey nova, what's pending on my list
+- please which tasks are pending
+- nova, which tasks are pending
+- can you which tasks are pending
+- could you which tasks are pending
+- hey nova, which tasks are pending
+- please show my pending tasks
+- nova, show my pending tasks
+- can you show my pending tasks
+- could you show my pending tasks
+- hey nova, show my pending tasks
+- please what's on my task list
+- nova, what's on my task list
+- can you what's on my task list
+- could you what's on my task list
+- hey nova, what's on my task list
+- please list my tasks
+- nova, list my tasks
+- can you list my tasks
+- could you list my tasks
+- hey nova, list my tasks
+- please what to-dos are pending
+- nova, what to-dos are pending
+- can you what to-dos are pending
+- could you what to-dos are pending
+- hey nova, what to-dos are pending
+- please check my task list
+- nova, check my task list
+- can you check my task list
+- could you check my task list
+- hey nova, check my task list
+- any tasks pending
+- please any tasks pending
+- nova, any tasks pending
+- can you any tasks pending
+- could you any tasks pending
+- hey nova, any tasks pending
+- please show pending tasks
+- nova, show pending tasks
+- can you show pending tasks
+- could you show pending tasks
+- hey nova, show pending tasks
+- my tasks please
+- please my tasks please
+- nova, my tasks please
+- can you my tasks please
+- could you my tasks please
+- hey nova, my tasks please
+- task list
+- please task list
+- nova, task list
+- can you task list
+- could you task list
+- hey nova, task list
+
+INTENT: LIST_REMINDERS
+
+- what reminders do I have
+- list my reminders
+- show reminders
+- which reminders are set
+- any reminders pending
+- what reminders are set
+- do I have any reminders
+- show my active reminders
+- what have you reminded me about
+- list pending reminders
+- any reminders coming up
+- please what reminders do I have
+- nova, what reminders do I have
+- can you what reminders do I have
+- could you what reminders do I have
+- hey nova, what reminders do I have
+- please list my reminders
+- nova, list my reminders
+- can you list my reminders
+- could you list my reminders
+- hey nova, list my reminders
+- please show reminders
+- nova, show reminders
+- can you show reminders
+- could you show reminders
+- hey nova, show reminders
+- please which reminders are set
+- nova, which reminders are set
+- can you which reminders are set
+- could you which reminders are set
+- hey nova, which reminders are set
+- please any reminders pending
+- nova, any reminders pending
+- can you any reminders pending
+- could you any reminders pending
+- hey nova, any reminders pending
+- please what reminders are set
+- nova, what reminders are set
+- can you what reminders are set
+- could you what reminders are set
+- hey nova, what reminders are set
+- please do I have any reminders
+- nova, do I have any reminders
+- can you do I have any reminders
+- could you do I have any reminders
+- hey nova, do I have any reminders
+- please show my active reminders
+- nova, show my active reminders
+- can you show my active reminders
+- could you show my active reminders
+- hey nova, show my active reminders
+- please what have you reminded me about
+- nova, what have you reminded me about
+- can you what have you reminded me about
+- could you what have you reminded me about
+- hey nova, what have you reminded me about
+- please list pending reminders
+- nova, list pending reminders
+- can you list pending reminders
+- could you list pending reminders
+- hey nova, list pending reminders
+- please any reminders coming up
+- nova, any reminders coming up
+- can you any reminders coming up
+- could you any reminders coming up
+- hey nova, any reminders coming up
+
