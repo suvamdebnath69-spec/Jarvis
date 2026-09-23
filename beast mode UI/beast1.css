@@ -767,6 +767,53 @@ body {
 
 
 /* =====================================================
+   LIVE NEURAL GLOBE (WebGL canvas)
+===================================================== */
+
+#beast-globe {
+
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+
+    display: block;
+
+    cursor: grab;
+
+    touch-action: none;
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 0, 0, 0.08),
+            transparent 62%
+        );
+
+    box-shadow:
+
+        0 0 40px
+        rgba(255, 0, 0, 0.08),
+
+        inset 0 0 70px
+        rgba(255, 0, 0, 0.06);
+
+    animation:
+        globeFloat 5s ease-in-out infinite;
+
+}
+
+
+/* core badge floats over the live globe, ignores mouse */
+
+.nova-core.core-overlay {
+
+    pointer-events: none;
+
+}
+
+
+/* =====================================================
    GLOBE LINES
 ===================================================== */
 
@@ -1598,7 +1645,13 @@ body {
 
     }
 
-    .neural-globe {
+    .beast-badge {
+
+        display: flex;
+
+    }
+
+    #beast-globe {
 
         transform:
             scale(.8);

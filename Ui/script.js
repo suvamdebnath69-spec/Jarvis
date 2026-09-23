@@ -159,6 +159,12 @@ async function sendMessage() {
         const data = await response.json();
         addMsg("nova", data.reply || "...");
 
+        /* globe reacts to NOVA's actual classification */
+        if (window.NovaGlobe) {
+            NovaGlobe.setPhrase(message);
+            NovaGlobe.pulse();
+        }
+
         /* the command "enter beast mode" IS the transition trigger */
         if (data.intent === "BEAST_ON") {
             enterBeastMode();
@@ -349,3 +355,29 @@ function enterBeastMode() {
 /* Start idle */
 
 setIdle();
+
+
+/* ================= LIVE NEURAL GLOBE ================= */
+
+/* Renders NOVA's real classifier in 3D. Typing in the chatbox
+   previews the activation path instantly; the globe also pulses
+   when NOVA replies. Drag to rotate, wheel to zoom. */
+
+(function () {
+
+    const el = document.getElementById("globe-canvas");
+    if (!el || !window.NovaGlobe) {
+        return;
+    }
+
+    const ok = NovaGlobe.init(el, "gold");
+
+    if (!ok) {
+        return;
+    }
+
+    input.addEventListener("input", () => {
+        NovaGlobe.setPhrase(input.value);
+    });
+
+})();

@@ -39,84 +39,24 @@
 
     <!-- ================= NEURAL GLOBE ================= -->
 
+    <!-- ================= NEURAL GLOBE (live WebGL) ================= -->
+
     <main class="globe-container">
 
-        <div class="globe">
+        <canvas id="globe-canvas" data-theme="gold"></canvas>
 
-            <!-- Outer rings -->
-            <div class="ring ring-1"></div>
-            <div class="ring ring-2"></div>
-            <div class="ring ring-3"></div>
+        <!-- NOVA Core badge (kept from the original design) -->
 
-            <!-- Latitude -->
-            <div class="latitude latitude-1"></div>
-            <div class="latitude latitude-2"></div>
-            <div class="latitude latitude-3"></div>
-            <div class="latitude latitude-4"></div>
+        <div class="core core-overlay">
 
-            <!-- Longitude -->
-            <div class="longitude longitude-1"></div>
-            <div class="longitude longitude-2"></div>
-            <div class="longitude longitude-3"></div>
-            <div class="longitude longitude-4"></div>
+            <div class="core-glow"></div>
 
-            <!-- Neural network -->
-            <div class="network">
-
-                <span class="node n1"></span>
-                <span class="node n2"></span>
-                <span class="node n3"></span>
-                <span class="node n4"></span>
-                <span class="node n5"></span>
-                <span class="node n6"></span>
-                <span class="node n7"></span>
-                <span class="node n8"></span>
-                <span class="node n9"></span>
-                <span class="node n10"></span>
-                <span class="node n11"></span>
-                <span class="node n12"></span>
-                <span class="node n13"></span>
-                <span class="node n14"></span>
-                <span class="node n15"></span>
-                <span class="node n16"></span>
-                <span class="node n17"></span>
-                <span class="node n18"></span>
-                <span class="node n19"></span>
-                <span class="node n20"></span>
-
-                <span class="line l1"></span>
-                <span class="line l2"></span>
-                <span class="line l3"></span>
-                <span class="line l4"></span>
-                <span class="line l5"></span>
-                <span class="line l6"></span>
-                <span class="line l7"></span>
-                <span class="line l8"></span>
-                <span class="line l9"></span>
-                <span class="line l10"></span>
-                <span class="line l11"></span>
-                <span class="line l12"></span>
-                <span class="line l13"></span>
-                <span class="line l14"></span>
-                <span class="line l15"></span>
-                <span class="line l16"></span>
-
-            </div>
-
-
-            <!-- NOVA Core -->
-
-            <div class="core">
-
-                <div class="core-glow"></div>
-
-                <span>NOVA</span>
-
-            </div>
+            <span>NOVA</span>
 
         </div>
 
     </main>
+
 
 
     <!-- ================= TASK PANEL ================= -->
@@ -168,6 +108,8 @@
 
     </div>
 
+
+    <script src="globe.js"></script>
 
     <script src="script.js"></script></body>
 

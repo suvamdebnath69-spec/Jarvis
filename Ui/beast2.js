@@ -329,6 +329,12 @@ async function executeCommand() {
             addActivity(data.reply.slice(0, 42).toUpperCase());
         }
 
+        /* globe reacts to NOVA's actual classification */
+        if (window.NovaGlobe) {
+            NovaGlobe.setPhrase(command);
+            NovaGlobe.pulse();
+        }
+
         /* "come back to normal mode" IS the exit trigger */
         if (data.intent === "BEAST_OFF") {
             standby();
@@ -581,6 +587,28 @@ addActivity(
 addActivity(
     "NEURAL ENGINE ONLINE"
 );
+
+
+/* =====================================================
+   LIVE NEURAL GLOBE — same classifier, red theme
+===================================================== */
+
+(function () {
+
+    const el = document.getElementById("beast-globe");
+    if (!el || !window.NovaGlobe) {
+        return;
+    }
+
+    if (!NovaGlobe.init(el, "red")) {
+        return;
+    }
+
+    commandInput.addEventListener("input", () => {
+        NovaGlobe.setPhrase(commandInput.value);
+    });
+
+})();
 
 api("/api/beast", { enabled: true })
     .then(() => addActivity("BEAST MODE ARMED"))

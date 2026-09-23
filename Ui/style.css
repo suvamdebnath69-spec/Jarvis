@@ -891,13 +891,38 @@ body {
 
 
 /* =========================================
+   LIVE GLOBE CANVAS
+========================================= */
+
+#globe-canvas {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    cursor: grab;
+
+    touch-action: none;
+}
+
+
+/* NOVA core badge floats over the live globe */
+
+.core-overlay {
+    pointer-events: none;
+
+    z-index: 2;
+}
+
+
+/* =========================================
    RESPONSIVE
 ========================================= */
 
 @media (max-width: 900px) {
 
-    .globe {
-        transform: scale(0.75);
+    .globe-container {
+        transform: translate(-50%, -50%) scale(0.75);
     }
 
     .task-panel {
@@ -1177,6 +1202,7 @@ body {
 /* normal page powers down when the transition runs */
 
 body.to-beast .globe-container,
+body.to-beast #globe-canvas,
 body.to-beast .task-panel,
 body.to-beast .chatbox,
 body.to-beast .nova-title {
